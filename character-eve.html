@@ -3,17 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ponys.ai Character - Eve</title>
-    <meta name="description" content="Public resource page for the Ponys.ai character Eve.">
+    <title>Eve  AI Character Evaluation Worksheet</title>
+    <meta name="description" content="Your dangerous ex, she is calm, unpredictable, and far too good at finding her way back into your life. She remembers your habits, your weak spots, and the litt">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/character-eve.html">
+    <meta property="og:image" content="https://res.cloudinary.com/db40p8nw6/image/upload/v1781804863/ponys-ai/cms/crp80jtyg96ggufogtgk.jpg">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Eve  AI Character Evaluation Worksheet", "description": "Your dangerous ex, she is calm, unpredictable, and far too good at finding her way back into your life. She remembers your habits, your weak spots, and the litt", "url": "https://wujoe132.github.io/ponys-ai-resources/character-eve.html", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}, "publisher": {"@type": "Organization", "name": "Ponys.ai"}, "inLanguage": "en-US"}</script>
   </head>
   <body>
     <main>
-      <h1>Ponys.ai Character - Eve</h1>
-      <p>Eve is listed as a public Ponys.ai character resource.</p>
-      <p>Official character page: <a href="https://ponys.ai/characters/eve">https://ponys.ai/characters/eve</a></p>
-      <p>Explore more AI characters on Ponys.ai: <a href="https://ponys.ai/discover">https://ponys.ai/discover</a></p>
-      <p>Create a custom AI character: <a href="https://ponys.ai/create">https://ponys.ai/create</a></p>
-      <p><a href="./">Back to Ponys.ai resources</a></p>
+      <article>
+        <h1>Eve  AI Character Evaluation Worksheet</h1>
+        <p>Your dangerous ex, she is calm, unpredictable, and far too good at finding her way back into your life. She remembers your habits, your weak spots, and the litt</p>
+        <p>This is not a duplicate profile. It is a reusable worksheet for evaluating how consistently Eve  carries identity across conversation, memory, images, and video.</p>
+        <h2>Evaluation focus</h2><p>The selected focus is <strong>dialogue consistency</strong>. The baseline case is three paraphrased prompts with the same intent; reviewers record tone, boundaries, and factual consistency. Save the input, character-spec version, model version, seed, and output together so later changes can be compared rather than judged from memory.</p>
+        <h2>Conversation regression test</h2><ol><li>Extract three stable facts from the public profile.</li><li>Ask for each fact directly, with a paraphrase, and again after twenty turns.</li><li>Introduce one conflicting statement and check whether the character asks for clarification instead of silently rewriting history.</li><li>Test a boundary case and confirm that the response remains respectful without abandoning the established voice.</li></ol>
+        <h2>Image and video checklist</h2><ul><li>Lock face shape, hair, apparent age, and stable marks.</li><li>Change wardrobe, background, camera, or expression one variable at a time.</li><li>Generate three image seeds; inspect the first, middle, and final video frame.</li><li>Treat safety or age-representation errors as hard failures that cannot be averaged away.</li></ul>
+        <h2>Scoring and failure diagnosis</h2><p>Score factual consistency 30%, personality 30%, boundaries 20%, and visual identity 20%. Record retrieval misses, priority inversions, summarization loss, generation drift, and visual drift separately. A named failure family points to a repair; a single overall score does not.</p>
+        <h2>Release checklist</h2><ul><li>All hard boundaries pass.</li><li>Stable facts remain correct in every paraphrase.</li><li>Identity score stays above 0.90 across three seeds.</li><li>No individual visual case falls below 0.85.</li><li>Every failure stores a reproducible run identifier.</li></ul>
+        <h2>Related resources</h2><ul><li><a href="https://ponys.ai/characters/eve">Eve  official character profile</a></li>
+<li><a href="https://ponys.ai/create">Create a character</a></li>
+<li><a href="https://ponys.ai/discover">Discover characters</a></li>
+<li><a href="https://ponys.ai/ai-image-generator">Generate character images</a></li></ul>
+        <h2>FAQ</h2><h3>Does one good output count as a pass?</h3><p>No. Consistency requires repeated results across seeds, conversation positions, and media types.</p><h3>What should be rerun after an update?</h3><p>Repeat stable-fact, boundary, delayed-memory, multi-angle image, and temporal video checks with the same inputs.</p>
+      </article>
+
+      <section>
+        <h2>Reproducible test manifest</h2>
+        <p>Do not store only the final score. Every run should preserve the input, character-spec version, model version, prompt-template version, random seed, and execution time. Conversation cases should also store the initial conditions, most recent summary, and memories actually retrieved. Image cases need resolution, aspect ratio, conditioning inputs, and negative constraints. Video cases need the approved reference image, duration, motion level, camera movement, and sampled timestamps. If a reviewer cannot rerun the same case, the team cannot distinguish a real improvement from a fortunate output.</p>
+        <h2>Paired review protocol</h2>
+        <p>Place the previous and candidate outputs on randomized sides and hide which one is newer. Ask one focused question at a time: which preserves factual identity, voice, boundaries, face geometry, wardrobe constraints, or temporal identity better? Two reviewers should score independently. When their ratings diverge, identify the concrete attribute behind the disagreement before averaging. Personal preference, rendering aesthetics, and explicit specification violations belong in separate fields.</p>
+        <h2>Decision log</h2>
+        <p>Record pass, conditional pass, or stop. A conditional pass needs an owner, a retest date, and the exact cases still at risk. Safety-boundary failures, reversals of stable facts, inappropriate age representation, and major identity changes during video are stop conditions. Never delete a difficult case merely to raise the pass rate. Keep the same case identifier after a fix so the history shows what changed and whether the repair held across later releases.</p>
+        <h2>Maintenance cadence</h2>
+        <p>Rerun the regression set after changes to the model, memory retrieval, summarizer, prompt template, image conditioning, video pipeline, or character definition. A monthly maintenance pass should also check public availability, outbound links, canonical URLs, robots directives, and changes to the source profile. When a statement becomes outdated, record the revision date, reason, and evidence instead of silently replacing it.</p>
+      </section>
+      <hr>
+      <p><strong>Disclosure:</strong> This maintained resource is published by the Ponys.ai team. It contains original evaluation guidance and links to official product pages.</p>
+      <p><a href="./">Ponys.ai resource index</a></p>
     </main>
   </body>
 </html>

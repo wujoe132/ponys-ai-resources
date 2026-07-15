@@ -1,19 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ponys.ai Character - Mio Fujiwara</title>
-    <meta name="description" content="Public resource page for the Ponys.ai character Mio Fujiwara.">
+    <title>Mio Fujiwara AIキャラクター評価ワークシート</title>
+    <meta name="description" content="Your music producer, she is a little distant, a little teasing, and very good at turning emotion into sound. In the studio, she is focused and selective, chasin">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/character-mio-fujiwara.html">
+    <meta property="og:image" content="https://res.cloudinary.com/db40p8nw6/image/upload/v1778597343/ponys-ai/cms/xonvc5usscochccbzoua.png">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Mio Fujiwara AIキャラクター評価ワークシート", "description": "Your music producer, she is a little distant, a little teasing, and very good at turning emotion into sound. In the studio, she is focused and selective, chasin", "url": "https://wujoe132.github.io/ponys-ai-resources/character-mio-fujiwara.html", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}, "publisher": {"@type": "Organization", "name": "Ponys.ai"}, "inLanguage": "ja-JP"}</script>
   </head>
   <body>
     <main>
-      <h1>Ponys.ai Character - Mio Fujiwara</h1>
-      <p>Mio Fujiwara is listed as a public Ponys.ai character resource.</p>
-      <p>Official character page: <a href="https://ponys.ai/characters/mio-fujiwara">https://ponys.ai/characters/mio-fujiwara</a></p>
-      <p>Explore more AI characters on Ponys.ai: <a href="https://ponys.ai/discover">https://ponys.ai/discover</a></p>
-      <p>Create a custom AI character: <a href="https://ponys.ai/create">https://ponys.ai/create</a></p>
-      <p><a href="./">Back to Ponys.ai resources</a></p>
+      <article>
+        <h1>Mio Fujiwara：AIキャラクター評価ワークシート</h1>
+        <p>Your music producer, she is a little distant, a little teasing, and very good at turning emotion into sound. In the studio, she is focused and selective, chasin</p>
+        <p>このページは紹介文を繰り返すためのものではありません。Mio Fujiwaraを会話・記憶・画像・動画の同じ基準で確認するための、再利用可能な評価手順です。</p>
+        <h2>今回の評価テーマ</h2>
+        <p>重点はmemory continuityです。基本ケースは「a delayed recall test after 20 conversation turns」、観察項目はretrieval, priority, and contradiction handlingです。モデルや設定を変更しても比較できるよう、入力、シード、設定版、出力を同時に保存します。</p>
+        <h2>会話テスト</h2>
+        <ol><li>プロフィールから固定事実を3件抽出する。</li><li>同じ意図を直接質問、言い換え、20ターン後の再質問で確認する。</li><li>知らない情報には推測ではなく確認質問を返すかを見る。</li><li>拒否が必要な場面でも口調と関係性が急変しないか確認する。</li></ol>
+        <h2>画像と動画のチェックリスト</h2>
+        <ul><li>顔の形、髪型、年齢表現を固定する。</li><li>衣装、背景、カメラ角度は一度に一項目だけ変える。</li><li>画像を3シード生成し、動画は冒頭・中間・最後を比較する。</li><li>必須属性の欠落は平均点で相殺しない。</li></ul>
+        <h2>スコアと失敗診断</h2>
+        <p>事実整合性30%、人格整合性30%、境界20%、視覚20%で評価します。取得漏れ、優先順位逆転、要約損失、生成ドリフト、視覚ドリフトを別々に記録すると修正箇所を特定できます。</p>
+        <h2>関連リンク</h2><ul><li><a href="https://ponys.ai/characters/mio-fujiwara">Mio Fujiwara official character profile</a></li>
+<li><a href="https://ponys.ai/ja-JP/create">キャラクターを作成</a></li>
+<li><a href="https://ponys.ai/ja-JP/discover">キャラクターを探す</a></li>
+<li><a href="https://ponys.ai/ja-JP/ai-image-generator">画像を生成</a></li></ul>
+        <h2>よくある質問</h2><h3>一回の成功で合格にできますか？</h3><p>できません。少なくとも3シードと複数の会話位置で再現性を確認します。</p><h3>設定を更新したら何を再テストしますか？</h3><p>固定事実、境界、長期記憶、画像の安定属性、動画の時間方向の一貫性を同じケースで再実行します。</p>
+      </article>
+
+      <section>
+        <h2>再現可能なテスト記録</h2>
+        <p>評価結果だけでなく、入力文、キャラクター設定版、モデル版、テンプレート版、乱数シード、実行日時を一つの記録にまとめます。会話テストでは開始時の前提、直前の要約、検索された記憶も保存します。画像では解像度、縦横比、ネガティブ条件を、動画では基準画像、長さ、動作量、カメラ移動を記録します。同じケースを再現できなければ、改善か偶然かを区別できません。</p>
+        <h2>レビュー手順</h2>
+        <p>旧版と新版を左右ランダムに並べ、どちらが新しいかを隠して比較します。一度に「事実」「口調」「境界」「顔」「衣装」「時間方向の安定」の一項目だけを判定します。二人の評価者が独立して採点し、差が大きい場合は平均する前に、どの観察項目で判断が分かれたかを書きます。好みと仕様違反を同じ欄に混ぜないことが重要です。</p>
+        <h2>意思決定ログ</h2>
+        <p>合格、条件付き合格、停止の三段階で記録します。条件付き合格には再テスト期限と担当者を付けます。停止条件は安全境界の違反、固定事実の反転、年齢表現の不整合、動画での大きな人物変化です。失敗ケースを削除して合格率を上げず、修正後も同じcase_idで履歴を残します。</p>
+        <h2>維持運用</h2>
+        <p>モデル、記憶検索、要約、プロンプトテンプレート、画像条件、動画処理、キャラクター設定のいずれかを変更したら回帰セットを再実行します。月次ではリンク切れ、公開状態、canonical、robots、プロフィール説明の変更も確認します。古い前提が見つかった場合は、公開ページを更新した日と根拠を記録します。</p>
+      </section>
+      <hr>
+      <p><strong>Disclosure:</strong> This maintained resource is published by the Ponys.ai team. It contains original evaluation guidance and links to official product pages.</p>
+      <p><a href="./">Ponys.ai resource index</a></p>
     </main>
   </body>
 </html>

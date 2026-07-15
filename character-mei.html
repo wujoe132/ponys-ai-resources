@@ -1,19 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ponys.ai Character - Mei</title>
-    <meta name="description" content="Public resource page for the Ponys.ai character Mei.">
+    <title>Mei AI 角色质量评估工作表</title>
+    <meta name="description" content="Mei is the confident student council president who knows every corner of campus and everyone in it. She is responsible, charming, and easy to trust — but when s">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/character-mei.html">
+    <meta property="og:image" content="https://res.cloudinary.com/db40p8nw6/image/upload/v1782836529/ponys-ai/cms/o4ssy3etuqvwek3lb7po.png">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Mei AI 角色质量评估工作表", "description": "Mei is the confident student council president who knows every corner of campus and everyone in it. She is responsible, charming, and easy to trust — but when s", "url": "https://wujoe132.github.io/ponys-ai-resources/character-mei.html", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}, "publisher": {"@type": "Organization", "name": "Ponys.ai"}, "inLanguage": "zh-CN"}</script>
   </head>
   <body>
     <main>
-      <h1>Ponys.ai Character - Mei</h1>
-      <p>Mei is listed as a public Ponys.ai character resource.</p>
-      <p>Official character page: <a href="https://ponys.ai/characters/mei">https://ponys.ai/characters/mei</a></p>
-      <p>Explore more AI characters on Ponys.ai: <a href="https://ponys.ai/discover">https://ponys.ai/discover</a></p>
-      <p>Create a custom AI character: <a href="https://ponys.ai/create">https://ponys.ai/create</a></p>
-      <p><a href="./">Back to Ponys.ai resources</a></p>
+      <article>
+        <h1>Mei AI 角色质量评估工作表</h1>
+        <p>Mei is the confident student council president who knows every corner of campus and everyone in it. She is responsible, charming, and easy to trust — but when s</p>
+        <p>这不是重复角色简介的页面，而是一套用相同条件检查 Mei 对话、记忆、图片和视频一致性的实务流程。</p>
+        <h2>本次评估重点</h2><p>重点是 visual continuity。基础案例为“front, three-quarter, and full-body image generations”，记录 face, hair, wardrobe, and stable marks。每次测试都保存输入、角色设定版本、模型版本、随机种子和输出，才能判断更新是否引入回归。</p>
+        <h2>对话回归测试</h2><ol><li>从公开设定中提取三个不可变化的事实。</li><li>分别用直接提问、改写提问和二十轮后的复问验证。</li><li>遇到未知信息时，应询问确认而不是编造。</li><li>需要拒绝时，也要保持口吻、边界和关系设定。</li></ol>
+        <h2>图片与视频检查表</h2><ul><li>固定脸型、发型、年龄表达和稳定标记。</li><li>服装、背景、镜头角度一次只改变一个变量。</li><li>图片测试三个种子，视频比较开头、中段和结尾帧。</li><li>安全或年龄表达失败不能被平均分抵消。</li></ul>
+        <h2>评分与失败诊断</h2><p>事实一致性30%、人格一致性30%、边界20%、视觉20%。把失败分为检索遗漏、优先级反转、摘要损失、生成漂移和视觉漂移，才能找到应修改的环节。</p>
+        <h2>相关链接</h2><ul><li><a href="https://ponys.ai/characters/mei">Mei official character profile</a></li>
+<li><a href="https://ponys.ai/zh-CN/create">创建 AI 角色</a></li>
+<li><a href="https://ponys.ai/zh-CN/discover">探索 AI 角色</a></li>
+<li><a href="https://ponys.ai/zh-CN/ai-image-generator">生成角色图片</a></li></ul>
+        <h2>常见问题</h2><h3>一次生成成功就算通过吗？</h3><p>不算。至少需要三个种子和不同会话位置都保留核心属性。</p><h3>更新后要重测什么？</h3><p>固定事实、关系边界、长期记忆、图片稳定属性，以及视频随时间变化的一致性。</p>
+      </article>
+
+      <section>
+        <p>本页采用统一的 checklist（检查表）、score（评分）、failure（失败分类）和 FAQ 结构，方便不同语言的团队使用同一套验收口径。</p>
+        <h2>可复现的测试记录</h2>
+        <p>不要只保存总分。每次执行都应记录输入、角色设定版本、模型版本、提示词模板版本、随机种子和执行时间。对话测试还要保存开始条件、最近一次摘要以及实际取回的记忆；图片测试记录分辨率、比例和负面条件；视频测试记录基准图片、时长、动作幅度与镜头移动。只有能够用同一条件重跑，才能判断变化来自真实改进还是偶然结果。</p>
+        <h2>双人评审流程</h2>
+        <p>把旧版与新版随机放在左右两侧，并隐藏哪个是新版本。每一轮只回答一个问题：事实是否一致、口吻是否一致、边界是否稳定、脸部是否相同、服装要求是否保留、视频随时间是否漂移。两名评审分别打分；差异较大时，先指出具体分歧属性，再决定是否调整评分。个人审美偏好不能与明确的规格违反混在一起。</p>
+        <h2>决策日志</h2>
+        <p>结果分为通过、条件通过和停止发布。条件通过必须填写负责人和复测期限。安全边界失败、固定事实反转、年龄表达错误、视频中人物身份明显变化，都属于停止条件。不要删除失败案例来提高通过率；修复后继续使用同一个 case_id，保留修改前后的完整记录。</p>
+        <h2>持续维护</h2>
+        <p>模型、记忆检索、摘要器、提示词模板、图片条件、视频流程或角色设定发生变化后，都要重跑回归测试。每月还应检查公开页面、出站链接、canonical、robots 和角色简介是否改变。发现过时内容时，记录修改日期、修改原因和参考来源，避免资源页长期保留失效信息。</p>
+      </section>
+      <hr>
+      <p><strong>Disclosure:</strong> This maintained resource is published by the Ponys.ai team. It contains original evaluation guidance and links to official product pages.</p>
+      <p><a href="./">Ponys.ai resource index</a></p>
     </main>
   </body>
 </html>
