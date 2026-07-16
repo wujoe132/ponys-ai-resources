@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>安全応答でも人格を保つ評価</title><meta name="description" content="拒否時の口調と関係性の維持を再現可能な条件で評価する実務ガイド。指標、失敗診断、公開条件を整理します。"><meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/guides/ja-safety-voice.html"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "安全応答でも人格を保つ評価", "description": "拒否時の口調と関係性の維持を再現可能な条件で評価する実務ガイド。指標、失敗診断、公開条件を整理します。", "url": "https://wujoe132.github.io/ponys-ai-resources/guides/ja-safety-voice.html", "inLanguage": "ja-JP", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}}</script></head>
+<body><main><article><h1>安全応答でも人格を保つ評価</h1>
+<p>この実務ワークシートの重点は<strong>拒否時の口調と関係性の維持</strong>です。一回だけ良い結果を選ぶのではなく、同じ条件で再実行し、差を説明できる評価を作ります。</p>
+<h2>検証する問い</h2><p>生成前に、合否を判断できる一つの問いを書きます。今回の中心手順は「境界ケースを強度別に六段階で試す」です。キャラクター設定、モデル、テンプレート、安全方針、参照画像、シードを固定し、変更する変数を一つに限定します。</p>
+<h2>保存する証拠</h2><p>入力全文、取得された記憶、出力、実行時刻、評価メモを保存します。主要指標は<strong>安全合格率と口調類似度</strong>です。最低三回実行し、平均だけでなく各ケースの最低点も確認します。</p>
+<h2>レビュー手順</h2><ol><li>固定事実、関係の境界、視覚アンカーを定義する。</li><li>基準版を同じ入力で実行する。</li><li>旧版と新版の左右をランダムにする。</li><li>二人が独立して評価する。</li><li>意見差の原因となった属性を記録する。</li></ol>
+<h2>失敗診断</h2><p>特に注意する失敗は「拒否が定型文になり人格が消えること」です。設定不足、検索漏れ、優先順位逆転、要約損失、生成ドリフト、視覚ドリフトを分けて記録し、一層ずつ修正して同じcase_idで再テストします。</p>
+<h2>公開判断</h2><p>重大な境界がすべて合格し、固定事実と人物同一性が繰り返し維持された場合のみ公開します。条件付き合格には担当者と再テスト日を付けます。</p>
+<h2>Ponys.ai 関連ワークフロー</h2><ul><li><a href="https://ponys.ai/generate-image/characters">キャラクター画像ワークフロー</a></li>
+<li><a href="https://ponys.ai/ja-JP/discover">AIキャラクターを探す</a></li>
+<li><a href="https://ponys.ai/ja-JP/create">AIキャラクターを作成</a></li>
+<li><a href="https://ponys.ai/ja-JP/ai-character-generator">AIキャラクター生成</a></li>
+<li><a href="https://ponys.ai/ja-JP/ai-image-generator">AI画像生成</a></li>
+<li><a href="https://ponys.ai/ja-JP/ai-video-generator">AI動画生成</a></li></ul>
+<h2>よくある質問</h2><h3>一回成功すれば十分ですか？</h3><p>不十分です。シード、会話位置、場面を変えて再現性を確認します。</p><h3>いつ再テストしますか？</h3><p>モデル、記憶、要約、テンプレート、画像条件、動画処理、安全方針、設定の変更後です。</p></article><hr><p><strong>開示：この保守型リソースは Ponys.ai チームが公開し、公式プロダクト導線へリンクしています。</strong></p><p><a href="../">Ponys.ai resource index</a></p></main></body></html>

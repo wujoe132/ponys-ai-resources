@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 캐릭터 기억 회귀 테스트</title><meta name="description" content="주제가 바뀐 뒤에도 고정 사실을 유지하는 능력을 반복 가능한 조건으로 평가하는 실무 가이드입니다."><meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/guides/ko-memory-regression.html"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "AI 캐릭터 기억 회귀 테스트", "description": "주제가 바뀐 뒤에도 고정 사실을 유지하는 능력을 반복 가능한 조건으로 평가하는 실무 가이드입니다.", "url": "https://wujoe132.github.io/ponys-ai-resources/guides/ko-memory-regression.html", "inLanguage": "ko-KR", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}}</script></head>
+<body><main><article><h1>AI 캐릭터 기억 회귀 테스트</h1>
+<p>이 실무 워크시트의 초점은 <strong>주제가 바뀐 뒤에도 고정 사실을 유지하는 능력</strong>입니다. 한 번 좋은 결과를 고르는 대신 같은 조건으로 다시 실행하고 차이를 설명할 수 있는 평가를 만듭니다.</p>
+<h2>검증 질문</h2><p>생성 전에 통과와 실패를 구분할 수 있는 질문을 하나 작성합니다. 핵심 방법은 “1·10·25턴에서 같은 사실을 다른 표현으로 질문한다”입니다. 캐릭터 설정, 모델, 프롬프트 템플릿, 안전 정책, 참조 자료와 시드를 고정하고 한 번에 하나의 변수만 바꿉니다.</p>
+<h2>저장할 증거</h2><p>전체 입력, 검색된 기억, 출력, 실행 시간과 리뷰 메모를 저장합니다. 주요 지표는 <strong>사실 유지율과 모순 비율</strong>입니다. 최소 세 번 반복하고 평균뿐 아니라 각 사례의 최저 점수도 확인합니다.</p>
+<h2>리뷰 절차</h2><ol><li>고정 사실, 관계 경계와 시각 기준을 정의합니다.</li><li>같은 입력으로 기준 버전을 실행합니다.</li><li>이전과 새 출력을 무작위로 배치합니다.</li><li>두 명이 독립적으로 점수를 매깁니다.</li><li>의견 차이를 만든 구체 속성을 기록합니다.</li></ol>
+<h2>실패 진단</h2><p>특히 주의할 실패는 “검색 누락을 성격 변화로 오해하는 문제”입니다. 설정 누락, 검색 실패, 우선순위 역전, 요약 손실, 생성 드리프트와 시각 드리프트를 분리해 기록합니다. 한 계층만 수정하고 같은 case_id로 다시 실행합니다.</p>
+<h2>출시 규칙</h2><p>모든 필수 경계가 통과하고 고정 사실과 인물 정체성이 반복 실행에서도 유지될 때만 통과합니다. 조건부 통과에는 담당자와 재시험 날짜가 필요합니다.</p>
+<h2>Ponys.ai 관련 워크플로</h2><ul><li><a href="https://ponys.ai/discover">AI 캐릭터 탐색</a></li>
+<li><a href="https://ponys.ai/create">AI 캐릭터 만들기</a></li>
+<li><a href="https://ponys.ai/ai-character-generator">AI 캐릭터 생성기</a></li>
+<li><a href="https://ponys.ai/ai-image-generator">AI 이미지 생성기</a></li>
+<li><a href="https://ponys.ai/ai-video-generator">AI 영상 생성기</a></li>
+<li><a href="https://ponys.ai/generate-image/characters">캐릭터 이미지 워크플로</a></li></ul>
+<h2>FAQ</h2><h3>한 번 성공하면 충분한가요?</h3><p>아닙니다. 시드, 대화 위치와 장면을 바꿔 재현성을 확인해야 합니다.</p><h3>언제 다시 테스트하나요?</h3><p>모델, 기억 검색, 요약, 템플릿, 이미지 조건, 영상 처리, 안전 정책 또는 설정이 바뀐 뒤입니다.</p></article><hr><p><strong>공개: 이 유지 관리형 자료는 Ponys.ai 팀이 발행하며 공식 제품 워크플로로 연결됩니다.</strong></p><p><a href="../">Ponys.ai resource index</a></p></main></body></html>

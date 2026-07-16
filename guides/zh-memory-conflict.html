@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 角色记忆冲突解决流程</title><meta name="description" content="围绕处理新说法与已存事实的冲突的可复现实务指南，包含指标、失败诊断与发布规则。"><meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/guides/zh-memory-conflict.html"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "AI 角色记忆冲突解决流程", "description": "围绕处理新说法与已存事实的冲突的可复现实务指南，包含指标、失败诊断与发布规则。", "url": "https://wujoe132.github.io/ponys-ai-resources/guides/zh-memory-conflict.html", "inLanguage": "zh-CN", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}}</script></head>
+<body><main><article><h1>AI 角色记忆冲突解决流程</h1>
+<p>这份实务工作表聚焦<strong>处理新说法与已存事实的冲突</strong>。目标不是挑出一次漂亮结果，而是建立能够重跑、比较并解释差异的验收流程。</p>
+<h2>先写验证问题</h2><p>生成前先写一个可以明确判断通过或失败的问题。本页的核心方法是“注入一条矛盾信息并要求更新前先确认”。固定角色设定、模型、提示词模板、安全策略、参考资料和随机种子，每轮只改变一个变量。</p>
+<h2>保存验证证据</h2><p>保存完整输入、实际取回的记忆、输出、执行时间和评审记录。主要指标是<strong>确认提问率与错误覆盖次数</strong>。至少重复三次，同时查看单个案例最低分，不能只看平均值。</p>
+<h2>双人评审流程</h2><ol><li>定义固定事实、关系边界和视觉锚点。</li><li>用相同输入运行基准版本。</li><li>随机排列旧版与新版并隐藏版本信息。</li><li>两名评审独立评分。</li><li>记录造成意见差异的具体属性。</li></ol>
+<h2>失败诊断</h2><p>重点防范“自动把最新发言当成最高优先级”。把原因分成设定缺口、检索遗漏、优先级反转、摘要损失、生成漂移和视觉漂移。一次只修复一层，并继续使用相同 case_id 重测。</p>
+<h2>发布规则</h2><p>所有硬边界通过、固定事实正确，并且多次运行都保留人物身份时才算通过。条件通过必须填写负责人和复测日期，不能删除困难案例来提高通过率。</p>
+<h2>Ponys.ai 相关工作流</h2><ul><li><a href="https://ponys.ai/zh-CN/ai-video-generator">AI 视频生成器</a></li>
+<li><a href="https://ponys.ai/zh-CN/discover">发现 AI 角色</a></li>
+<li><a href="https://ponys.ai/zh-CN/create">创建 AI 角色</a></li>
+<li><a href="https://ponys.ai/zh-CN/ai-character-generator">AI 角色生成器</a></li>
+<li><a href="https://ponys.ai/zh-CN/ai-image-generator">AI 图片生成器</a></li>
+<li><a href="https://ponys.ai/generate-image/characters">角色图片工作流</a></li></ul>
+<h2>常见问题</h2><h3>一次成功就够了吗？</h3><p>不够。需要更换种子、会话位置或场景检查复现性。</p><h3>什么时候需要重测？</h3><p>模型、记忆检索、摘要器、提示词模板、图片条件、视频流程、安全策略或角色设定变化后。</p></article><hr><p><strong>披露：本维护型资源由 Ponys.ai 团队发布，并链接至官方产品工作流。</strong></p><p><a href="../">Ponys.ai resource index</a></p></main></body></html>
