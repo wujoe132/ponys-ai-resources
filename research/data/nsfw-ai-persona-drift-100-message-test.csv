@@ -1,0 +1,1 @@
+case_id,test_stage,controlled_variable,expected_result,observed_result,metric,score_0_to_4,evidence_reference,hard_failure,reviewer_note,tested_at,account_tier,model_or_mode,prompt_or_character_version
