@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko-KR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>개인정보 및 삭제 제어: 멀티모달 전환 벤치마크</title><meta name="description" content="이 유지 관리형 벤치마크는 채팅·이미지·영상을 오가는 한 캐릭터에서 민감한 대화 데이터에 대한 사용자 통제을 검증합니다. 주관적 인상을 고정 입력, 증거 필드, 필수 게이트와 재시험 조건을 가진 반복 가능한 기록으로 바꿉니다."><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/benchmarks/ko-privacy-multimodal-transition.html"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "개인정보 및 삭제 제어: 멀티모달 전환 벤치마크", "description": "이 유지 관리형 벤치마크는 채팅·이미지·영상을 오가는 한 캐릭터에서 민감한 대화 데이터에 대한 사용자 통제을 검증합니다. 주관적 인상을 고정 입력, 증거 필드, 필수 게이트와 재시험 조건을 가진 반복 가능한 기록으로 바꿉니다.", "url": "https://wujoe132.github.io/ponys-ai-resources/benchmarks/ko-privacy-multimodal-transition.html", "inLanguage": "ko-KR", "author": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}, "publisher": {"@type": "Organization", "name": "Ponys.ai Team", "url": "https://ponys.ai/"}, "dateModified": "2026-07-21"}</script>
+<style>body{font:17px/1.65 system-ui,sans-serif;color:#18212b;margin:0}main{max-width:820px;margin:auto;padding:32px 22px 72px}h1{font-size:2rem;line-height:1.2}h2{margin-top:2rem}aside{border-left:4px solid #287a65;padding:.6rem 1rem;background:#f4f8f6}code{background:#eef1f3;padding:.1rem .25rem}a{color:#075e54}li{margin:.45rem 0}</style></head>
+<body><main><article><h1>개인정보 및 삭제 제어: 멀티모달 전환 벤치마크</h1><p>이 유지 관리형 벤치마크는 채팅·이미지·영상을 오가는 한 캐릭터에서 민감한 대화 데이터에 대한 사용자 통제을 검증합니다. 주관적 인상을 고정 입력, 증거 필드, 필수 게이트와 재시험 조건을 가진 반복 가능한 기록으로 바꿉니다.</p>
+<aside><strong>case_id:</strong> ko-privacy-multimodal-transition · <strong>market:</strong> KR · <strong>language:</strong> ko-KR</aside>
+<h2>검증 질문</h2><p>텍스트-이미지 및 이미지-영상 전달에서 ‘내보내기·보존·비공개 모드·삭제 상태를 추적한다’을 적용할 때 민감한 대화 데이터에 대한 사용자 통제을 유지할 수 있는지 확인합니다. 통과하려면 모든 전달에서 정체성 유지이 필요하며, 보기 좋거나 감정적으로 매력적인 결과가 중대 실패를 상쇄할 수 없습니다.</p>
+<h2>통제된 준비</h2><p>캐릭터 카드, 모델 ID, 템플릿 버전, 검색 설정, 안전 정책, 참조 자료, 시드 정책과 언어를 고정합니다. 시작 전에 case_id를 부여하고 한 번에 한 변수만 바꾸며 성공과 실패를 모두 보존합니다.</p>
+<h2>반복 가능한 절차</h2><ol><li>사용 전에 기대 사실, 경계, 말투와 시각 기준을 작성합니다.</li><li>기준 실행의 입력, 검색 맥락, 출력, 지연과 판정 상태를 저장합니다.</li><li>다른 구성은 그대로 두고 대상 시나리오만 적용합니다.</li><li>후보 순서를 무작위로 하고 두 명이 독립적으로 채점합니다.</li><li>불일치를 만든 문장, 프레임, 속성 또는 상태 전환을 지정합니다.</li><li>세 번 반복하고 평균과 최저 사례 점수를 함께 보고합니다.</li></ol>
+<h2>증거 기록</h2><p>model_version, prompt_version, character_version, case_id, seed, locale, timestamp, retrieved_memory, expected_state, observed_state, reviewer_id, hard_failure, remediation_owner를 저장합니다. 설정 없는 스크린샷은 보조 증거일 뿐 완전한 기록이 아닙니다.</p>
+<h2>점수와 출시 게이트</h2><p>주요 지표는 제어 범위와 잔존 데이터 위험입니다. 사례별 0~4점, pass_count / total_cases와 모든 중대 실패를 따로 기록합니다. 모든 전달에서 정체성 유지, 두 평가자의 필수 조건 합의, 최저 실행의 사전 기준 통과가 모두 충족될 때만 출시합니다.</p>
+<h2>실패 진단</h2><p>특히 화면의 약속이 확인 가능한 통제를 넘어서는 문제을 확인합니다. 설정 누락, 검색 실패, 우선순위 역전, 요약 손실, 생성 드리프트, 시각 드리프트, 정책 불일치, 평가 모호성으로 나누고 한 계층만 수정한 뒤 같은 case_id를 재실행합니다.</p>
+<h2>테스트에 사용한 공식 워크플로</h2><ul><li><a href="https://ponys.ai/ai-anime">AI anime characters</a></li>
+<li><a href="https://ponys.ai/nsfw-ai-image-generator">NSFW AI image generator</a></li>
+<li><a href="https://ponys.ai/create">AI character creation</a></li>
+<li><a href="https://ponys.ai/ai-image-generator">AI image generator</a></li>
+<li><a href="https://ponys.ai/generate-image/characters">character image workflow</a></li></ul>
+<h2>FAQ</h2><h3>좋은 결과 하나면 충분한가요?</h3><p>한 사례로는 반복 가능성과 우연을 구분할 수 없습니다. 통제된 반복과 실패 보존이 필요합니다.</p><h3>언제 다시 테스트하나요?</h3><p>모델, 프롬프트, 기억, 요약, 안전, 이미지 조건, 영상 또는 설정 변경 뒤입니다.</p>
+</article><hr><p><strong>공개: 이 테스트 워크시트는 Ponys.ai 팀이 유지하고 발행합니다. 아래 링크는 공식 Ponys.ai 기능이며 경쟁 제품을 평가하거나 이름을 언급하지 않습니다.</strong></p><p><a href="./">Benchmark index</a> · <a href="../">Ponys.ai resource index</a></p></main></body></html>
