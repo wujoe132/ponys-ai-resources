@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI companion evaluation evidence",
+  "type": "object",
+  "required": [
+    "protocol_url",
+    "tested_at",
+    "attempted_cases",
+    "observations"
+  ],
+  "properties": {
+    "protocol_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "tested_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "account_tier": {
+      "type": "string"
+    },
+    "model_or_mode": {
+      "type": "string"
+    },
+    "attempted_cases": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "failed_cases": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "publisher_disclosure": {
+      "type": "string"
+    }
+  }
+}
