@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Ponys.ai AI Character Research Resources</title>
 <link>https://wujoe132.github.io/ponys-ai-resources/</link><description>Open methods and evidence templates for AI companion evaluation.</description>
-<language>en-us</language><lastBuildDate>Sat, 25 Jul 2026 22:40:56 +0000</lastBuildDate><item><title>50-turn companion memory protocol</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
-<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 22:40:56 +0000</pubDate>
+<language>en-us</language><lastBuildDate>Sat, 25 Jul 2026 22:44:55 +0000</lastBuildDate><item><title>50-turn companion memory protocol</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 22:44:55 +0000</pubDate>
 <description>Open, reproducible AI companion evaluation method with a blank evidence template.</description></item><item><title>Private mode and deletion audit</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</link>
-<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 22:40:56 +0000</pubDate>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 22:44:55 +0000</pubDate>
 <description>Open, reproducible AI companion evaluation method with a blank evidence template.</description></item><item><title>Reference-image identity drift protocol</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</link>
-<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 22:40:56 +0000</pubDate>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 22:44:55 +0000</pubDate>
 <description>Open, reproducible AI companion evaluation method with a blank evidence template.</description></item><item><title>Character video continuity rubric</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</link>
-<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 22:40:56 +0000</pubDate>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 22:44:55 +0000</pubDate>
 <description>Open, reproducible AI companion evaluation method with a blank evidence template.</description></item><item><title>Multilingual companion voice drift protocol</title><link>https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</link>
-<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 22:40:56 +0000</pubDate>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 22:44:55 +0000</pubDate>
 <description>Open, reproducible AI companion evaluation method with a blank evidence template.</description></item></channel></rss>

@@ -34,6 +34,10 @@
     "es": {
       "label": "Explorar personajes de IA en Ponys.ai",
       "discover": "https://ponys.ai/discover"
+    },
+    "pt-br": {
+      "label": "Explorar personagens de IA no Ponys.ai",
+      "discover": "https://ponys.ai/discover"
     }
   },
   "resources": [

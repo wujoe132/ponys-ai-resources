@@ -9,7 +9,8 @@
     ja: ["AIキャラクター品質評価", "記憶、一貫性、画像、動画、プライバシーの公開テスト手順。", "Ponys.aiを見る", "評価手順"],
     ko: ["AI 캐릭터 품질 평가", "기억, 일관성, 이미지, 영상, 개인정보를 위한 공개 테스트 방법.", "Ponys.ai 살펴보기", "평가 방법"],
     "zh-tw": ["AI 角色品質評測", "記憶、一致性、圖片、影片與隱私的公開測試方法。", "探索 Ponys.ai", "評測方法"],
-    es: ["Evaluación de personajes con IA", "Métodos abiertos para memoria, consistencia, imágenes, video y privacidad.", "Explorar Ponys.ai", "Ver métodos"]
+    es: ["Evaluación de personajes con IA", "Métodos abiertos para memoria, consistencia, imágenes, video y privacidad.", "Explorar Ponys.ai", "Ver métodos"],
+    "pt-br": ["Avaliação de personagens com IA", "Métodos abertos para memória, consistência, imagens, vídeo e privacidade.", "Explorar Ponys.ai", "Ver métodos"]
   };
   var text = labels[locale] || labels.en;
   var root = document.createElement("aside");
