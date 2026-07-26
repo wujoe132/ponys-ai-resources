@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Ponys.ai AIコンパニオン評価資料</title>
+<link>https://wujoe132.github.io/ponys-ai-resources/feeds/</link><description>AIコンパニオン記事向けの公開評価手順、証拠テンプレート、制作者資料。</description>
+<language>ja-JP</language><lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item><title>50ターンAIコンパニオン記憶テスト</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>長い会話での事実保持、矛盾、回復を測定する再現可能な手順と空のCSV。</description><category>memory</category></item><item><title>プライベートモードとデータ保持監査</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>プライベートモード、エクスポート、保持、削除の説明を確認する項目別ワークシート。</description><category>privacy</category></item><item><title>参照画像の人物同一性ドリフト手順</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>生成キャラクター画像間の人物同一性ドリフトを測定する反復可能な評価表。</description><category>image</category></item><item><title>キャラクター動画の連続性評価表</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>顔、衣装、形状、動き、時間的一貫性をショット単位で確認する評価表。</description><category>video</category></item><item><title>多言語キャラクター口調ドリフト手順</title><link>https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>翻訳後も口調、関係状態、境界が維持されるかを確認する手順。</description><category>localization</category></item></channel></rss>

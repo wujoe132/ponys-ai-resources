@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Investigación de acompañantes de IA de Ponys.ai</title>
+<link>https://wujoe132.github.io/ponys-ai-resources/feeds/</link><description>Métodos abiertos, plantillas de evidencia y recursos para creadores y medios sobre acompañantes de IA.</description>
+<language>es-419</language><lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item><title>Protocolo de memoria de 50 turnos</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>Un protocolo reproducible y un CSV vacío para medir retención, contradicción y recuperación en conversaciones largas.</description><category>memory</category></item><item><title>Auditoría de modo privado y retención</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>Una hoja para revisar afirmaciones sobre modo privado, exportación, retención y eliminación.</description><category>privacy</category></item><item><title>Protocolo de deriva de identidad visual</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>Una rúbrica repetible para medir cambios de identidad entre imágenes generadas.</description><category>image</category></item><item><title>Rúbrica de continuidad de video</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>Una rúbrica por toma para rostro, vestuario, geometría, movimiento y continuidad temporal.</description><category>video</category></item><item><title>Protocolo de deriva de voz multilingüe</title><link>https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>Un protocolo para comprobar si la voz, la relación y los límites sobreviven a la traducción.</description><category>localization</category></item></channel></rss>

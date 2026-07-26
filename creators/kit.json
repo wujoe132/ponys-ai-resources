@@ -1,0 +1,39 @@
+{
+  "name": "Ponys.ai creator and affiliate self-serve kit",
+  "version": "1.0.0",
+  "updated": "2026-07-25",
+  "destinations": {
+    "discover": "https://ponys.ai/discover",
+    "create": "https://ponys.ai/create",
+    "character": "https://ponys.ai/ai-character-generator",
+    "image": "https://ponys.ai/ai-image-generator",
+    "video": "https://ponys.ai/ai-video-generator"
+  },
+  "locales": [
+    "en",
+    "ja",
+    "ko",
+    "zh-tw",
+    "zh-cn",
+    "es"
+  ],
+  "disclosures": {
+    "en": "Disclosure: this link identifies the creator campaign. Commercial compensation, if any, must be disclosed separately.",
+    "ja": "開示：このリンクは制作者キャンペーンを識別します。報酬がある場合は別途明示してください。",
+    "ko": "공개: 이 링크는 크리에이터 캠페인을 식별합니다. 보상이 있는 경우 별도로 공개해야 합니다.",
+    "zh-tw": "揭露：此連結用於識別創作者活動；如有商業報酬，必須另外清楚揭露。",
+    "zh-cn": "披露：此链接用于识别创作者活动；如有商业报酬，必须另行明确披露。",
+    "es": "Divulgación: este enlace identifica la campaña del creador. Toda compensación debe declararse por separado."
+  },
+  "assets": {
+    "benchmarkWidget": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",
+    "feedManifest": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json",
+    "resourceApi": "https://wujoe132.github.io/ponys-ai-resources/api/resources.json",
+    "logo": "https://wujoe132.github.io/ponys-ai-resources/assets/ponys-logo.png"
+  },
+  "terms": {
+    "attribution": "Generated links provide campaign attribution only.",
+    "commission": "A generated link does not activate commission or promise payment. Commercial terms require separate written approval.",
+    "editorial": "No positive review, fixed score, reciprocal link, or guaranteed placement is required."
+  }
+}

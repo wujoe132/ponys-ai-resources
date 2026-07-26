@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Ponys.ai AI 陪伴评测资料</title>
+<link>https://wujoe132.github.io/ponys-ai-resources/feeds/</link><description>面向 AI 陪伴报道的公开评测方法、证据模板和创作者资源。</description>
+<language>zh-CN</language><lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item><title>50 轮 AI 陪伴记忆测试</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>用于测量长对话中事实保留、矛盾和恢复能力的可复现方法及空白 CSV。</description><category>memory</category></item><item><title>私密模式与数据保留审计</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>逐项检查私密模式、导出、保留和删除披露的工作表。</description><category>privacy</category></item><item><title>参考图片身份漂移测试</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>测量生成角色图片之间身份漂移的可重复评分表。</description><category>image</category></item><item><title>角色视频连续性评分表</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>逐镜检查面部、服装、几何、动作和时间连续性的评分表。</description><category>video</category></item><item><title>多语角色语气漂移测试</title><link>https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>检查翻译后角色语气、关系状态和边界是否持续的测试方法。</description><category>localization</category></item></channel></rss>

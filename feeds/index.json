@@ -1,0 +1,40 @@
+{
+  "name": "Ponys.ai six-language release feeds",
+  "updated": "2026-07-25",
+  "formats": [
+    "rss2",
+    "jsonfeed1.1"
+  ],
+  "feeds": {
+    "en": {
+      "name": "English",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/en.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/en.json"
+    },
+    "ja": {
+      "name": "日本語",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/ja.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/ja.json"
+    },
+    "ko": {
+      "name": "한국어",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/ko.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/ko.json"
+    },
+    "zh-tw": {
+      "name": "繁體中文",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/zh-tw.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/zh-tw.json"
+    },
+    "zh-cn": {
+      "name": "简体中文",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/zh-cn.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/zh-cn.json"
+    },
+    "es": {
+      "name": "Español",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/es.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/es.json"
+    }
+  }
+}

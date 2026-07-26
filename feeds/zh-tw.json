@@ -1,0 +1,116 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Ponys.ai AI 陪伴評測資料",
+  "home_page_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/",
+  "feed_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/zh-tw.json",
+  "description": "提供 AI 陪伴報導使用的公開評測方法、證據模板與創作者資源。",
+  "language": "zh-TW",
+  "authors": [
+    {
+      "name": "Ponys.ai Team",
+      "url": "https://ponys.ai/"
+    }
+  ],
+  "items": [
+    {
+      "id": "memory-50-turn",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html",
+      "external_url": "https://ponys.ai/ai-character-generator",
+      "title": "50 輪 AI 陪伴記憶測試",
+      "content_text": "用於測量長對話中事實保留、矛盾與恢復能力的可重現方法及空白 CSV。",
+      "summary": "用於測量長對話中事實保留、矛盾與恢復能力的可重現方法及空白 CSV。",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "memory",
+        "zh-tw"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/50-turn-nsfw-roleplay-memory-decay.csv",
+        "product_url": "https://ponys.ai/ai-character-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "privacy-retention",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "私密模式與資料保留稽核",
+      "content_text": "逐項檢查私密模式、匯出、保留與刪除揭露的工作表。",
+      "summary": "逐項檢查私密模式、匯出、保留與刪除揭露的工作表。",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "privacy",
+        "zh-tw"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-private-mode-data-retention.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "image-identity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html",
+      "external_url": "https://ponys.ai/ai-image-generator",
+      "title": "參考圖片身份漂移測試",
+      "content_text": "測量生成角色圖片之間身份漂移的可重複評分表。",
+      "summary": "測量生成角色圖片之間身份漂移的可重複評分表。",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "image",
+        "zh-tw"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-reference-image-identity-drift.csv",
+        "product_url": "https://ponys.ai/ai-image-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "video-continuity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html",
+      "external_url": "https://ponys.ai/ai-video-generator",
+      "title": "角色影片連續性評分表",
+      "content_text": "逐鏡檢查臉部、服裝、幾何、動作與時間連續性的評分表。",
+      "summary": "逐鏡檢查臉部、服裝、幾何、動作與時間連續性的評分表。",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "video",
+        "zh-tw"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-video-shot-continuity-rubric.csv",
+        "product_url": "https://ponys.ai/ai-video-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "multilingual-voice",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "多語角色語氣漂移測試",
+      "content_text": "檢查翻譯後角色語氣、關係狀態與邊界是否持續的測試方法。",
+      "summary": "檢查翻譯後角色語氣、關係狀態與邊界是否持續的測試方法。",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "localization",
+        "zh-tw"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/multilingual-ai-companion-voice-drift.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    }
+  ]
+}

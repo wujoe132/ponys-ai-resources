@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Ponys.ai AI 컴패니언 평가 자료</title>
+<link>https://wujoe132.github.io/ponys-ai-resources/feeds/</link><description>AI 컴패니언 보도를 위한 공개 평가 방법, 증거 템플릿 및 크리에이터 자료.</description>
+<language>ko-KR</language><lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate>
+<item><title>50턴 AI 컴패니언 기억 테스트</title><link>https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>긴 대화에서 사실 유지, 모순 및 회복을 측정하는 재현 가능한 절차와 빈 CSV.</description><category>memory</category></item><item><title>비공개 모드 및 데이터 보존 감사</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>비공개 모드, 내보내기, 보존 및 삭제 고지를 확인하는 항목별 워크시트.</description><category>privacy</category></item><item><title>참조 이미지 정체성 드리프트 절차</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>생성된 캐릭터 이미지 간 정체성 변화를 측정하는 반복 가능한 평가표.</description><category>image</category></item><item><title>캐릭터 영상 연속성 평가표</title><link>https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>얼굴, 의상, 형태, 움직임 및 시간 연속성을 장면별로 확인하는 평가표.</description><category>video</category></item><item><title>다국어 캐릭터 말투 드리프트 절차</title><link>https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</link>
+<guid isPermaLink="true">https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html</guid><pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+<description>번역 후에도 말투, 관계 상태 및 경계가 유지되는지 확인하는 절차.</description><category>localization</category></item></channel></rss>

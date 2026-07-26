@@ -1,0 +1,32 @@
+{
+  "name": "Ponys.ai embeddable benchmark widget",
+  "version": "1.0.0",
+  "updated": "2026-07-25",
+  "script": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark-widget.js",
+  "builder": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",
+  "locales": [
+    "en",
+    "ja",
+    "ko",
+    "zh-tw",
+    "zh-cn",
+    "es"
+  ],
+  "dimensions": [
+    "memory",
+    "persona",
+    "boundaries",
+    "privacy",
+    "visual_identity"
+  ],
+  "privacy": {
+    "cookies": false,
+    "storage": false,
+    "telemetry": false
+  },
+  "links": {
+    "default_rel": "nofollow noopener",
+    "visible": true,
+    "removable": true
+  }
+}

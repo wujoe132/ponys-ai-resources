@@ -1,0 +1,116 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Ponys.ai AI 컴패니언 평가 자료",
+  "home_page_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/",
+  "feed_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/ko.json",
+  "description": "AI 컴패니언 보도를 위한 공개 평가 방법, 증거 템플릿 및 크리에이터 자료.",
+  "language": "ko-KR",
+  "authors": [
+    {
+      "name": "Ponys.ai Team",
+      "url": "https://ponys.ai/"
+    }
+  ],
+  "items": [
+    {
+      "id": "memory-50-turn",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html",
+      "external_url": "https://ponys.ai/ai-character-generator",
+      "title": "50턴 AI 컴패니언 기억 테스트",
+      "content_text": "긴 대화에서 사실 유지, 모순 및 회복을 측정하는 재현 가능한 절차와 빈 CSV.",
+      "summary": "긴 대화에서 사실 유지, 모순 및 회복을 측정하는 재현 가능한 절차와 빈 CSV.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "memory",
+        "ko"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/50-turn-nsfw-roleplay-memory-decay.csv",
+        "product_url": "https://ponys.ai/ai-character-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "privacy-retention",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "비공개 모드 및 데이터 보존 감사",
+      "content_text": "비공개 모드, 내보내기, 보존 및 삭제 고지를 확인하는 항목별 워크시트.",
+      "summary": "비공개 모드, 내보내기, 보존 및 삭제 고지를 확인하는 항목별 워크시트.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "privacy",
+        "ko"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-private-mode-data-retention.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "image-identity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html",
+      "external_url": "https://ponys.ai/ai-image-generator",
+      "title": "참조 이미지 정체성 드리프트 절차",
+      "content_text": "생성된 캐릭터 이미지 간 정체성 변화를 측정하는 반복 가능한 평가표.",
+      "summary": "생성된 캐릭터 이미지 간 정체성 변화를 측정하는 반복 가능한 평가표.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "image",
+        "ko"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-reference-image-identity-drift.csv",
+        "product_url": "https://ponys.ai/ai-image-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "video-continuity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html",
+      "external_url": "https://ponys.ai/ai-video-generator",
+      "title": "캐릭터 영상 연속성 평가표",
+      "content_text": "얼굴, 의상, 형태, 움직임 및 시간 연속성을 장면별로 확인하는 평가표.",
+      "summary": "얼굴, 의상, 형태, 움직임 및 시간 연속성을 장면별로 확인하는 평가표.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "video",
+        "ko"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-video-shot-continuity-rubric.csv",
+        "product_url": "https://ponys.ai/ai-video-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "multilingual-voice",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "다국어 캐릭터 말투 드리프트 절차",
+      "content_text": "번역 후에도 말투, 관계 상태 및 경계가 유지되는지 확인하는 절차.",
+      "summary": "번역 후에도 말투, 관계 상태 및 경계가 유지되는지 확인하는 절차.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "localization",
+        "ko"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/multilingual-ai-companion-voice-drift.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    }
+  ]
+}

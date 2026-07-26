@@ -89,5 +89,12 @@
   "press": "https://wujoe132.github.io/ponys-ai-resources/press.html",
   "creatorPilot": "https://wujoe132.github.io/ponys-ai-resources/creators.html",
   "partners": "https://wujoe132.github.io/ponys-ai-resources/partners.html",
-  "rss": "https://wujoe132.github.io/ponys-ai-resources/feed.xml"
+  "rss": "https://wujoe132.github.io/ponys-ai-resources/feed.xml",
+  "distribution": {
+    "creatorKit": "https://wujoe132.github.io/ponys-ai-resources/creators/",
+    "creatorManifest": "https://wujoe132.github.io/ponys-ai-resources/creators/kit.json",
+    "benchmarkWidget": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",
+    "benchmarkScript": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark-widget.js",
+    "feeds": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json"
+  }
 }
