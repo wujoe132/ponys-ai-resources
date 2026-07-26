@@ -1,0 +1,14 @@
+{
+  "name": "ponys-ai-publisher-resources-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable preview of the Ponys.ai publisher integration resources.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "7.0.6"
+  }
+}
