@@ -1,0 +1,116 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Pesquisa sobre companheiros de IA da Ponys.ai",
+  "home_page_url": "https://ponys.ai/discover",
+  "feed_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/pt-br.json",
+  "description": "Métodos abertos, modelos de evidências e recursos editoriais para avaliar companheiros de IA.",
+  "language": "pt-BR",
+  "authors": [
+    {
+      "name": "Ponys.ai Team",
+      "url": "https://ponys.ai/"
+    }
+  ],
+  "items": [
+    {
+      "id": "memory-50-turn",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html",
+      "external_url": "https://ponys.ai/ai-character-generator",
+      "title": "Protocolo de memória em 50 turnos",
+      "content_text": "Um protocolo reproduzível e um CSV vazio para medir retenção de fatos, contradições e recuperação em conversas longas.",
+      "summary": "Um protocolo reproduzível e um CSV vazio para medir retenção de fatos, contradições e recuperação em conversas longas.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "memory",
+        "pt-br"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/50-turn-nsfw-roleplay-memory-decay.csv",
+        "product_url": "https://ponys.ai/ai-character-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "privacy-retention",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-private-mode-data-retention.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "Auditoria de modo privado e retenção de dados",
+      "content_text": "Uma planilha para verificar declarações sobre modo privado, exportação, retenção e exclusão de dados.",
+      "summary": "Uma planilha para verificar declarações sobre modo privado, exportação, retenção e exclusão de dados.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "privacy",
+        "pt-br"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-private-mode-data-retention.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "image-identity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html",
+      "external_url": "https://ponys.ai/ai-image-generator",
+      "title": "Protocolo de desvio de identidade visual",
+      "content_text": "Uma rubrica repetível para medir desvios de identidade entre imagens de personagens geradas.",
+      "summary": "Uma rubrica repetível para medir desvios de identidade entre imagens de personagens geradas.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "image",
+        "pt-br"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-reference-image-identity-drift.csv",
+        "product_url": "https://ponys.ai/ai-image-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "video-continuity",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html",
+      "external_url": "https://ponys.ai/ai-video-generator",
+      "title": "Rubrica de continuidade de vídeo",
+      "content_text": "Uma rubrica quadro a quadro para rosto, vestuário, geometria, movimento e continuidade temporal.",
+      "summary": "Uma rubrica quadro a quadro para rosto, vestuário, geometria, movimento e continuidade temporal.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "video",
+        "pt-br"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/adult-ai-video-shot-continuity-rubric.csv",
+        "product_url": "https://ponys.ai/ai-video-generator",
+        "maintainer": "Ponys.ai team"
+      }
+    },
+    {
+      "id": "multilingual-voice",
+      "url": "https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html",
+      "external_url": "https://ponys.ai/discover",
+      "title": "Protocolo de desvio de voz multilíngue",
+      "content_text": "Um protocolo para verificar se a voz do personagem, o estado da relação e os limites permanecem após a tradução.",
+      "summary": "Um protocolo para verificar se a voz do personagem, o estado da relação e os limites permanecem após a tradução.",
+      "date_published": "2026-07-25T00:00:00Z",
+      "tags": [
+        "ai companion",
+        "benchmark",
+        "localization",
+        "pt-br"
+      ],
+      "_ponys": {
+        "data_url": "https://wujoe132.github.io/ponys-ai-resources/research/data/multilingual-ai-companion-voice-drift.csv",
+        "product_url": "https://ponys.ai/discover",
+        "maintainer": "Ponys.ai team"
+      }
+    }
+  ]
+}

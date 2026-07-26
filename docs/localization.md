@@ -23,5 +23,5 @@ Mainland China, and Spanish-speaking markets.
 4. Link to the most relevant localized destination.
 5. State when a feature, price, or policy may vary by region.
 
-The six-language feeds provide source metadata, but local editors should rewrite
+The seven-language feeds provide source metadata, but local editors should rewrite
 headlines and context for their audience rather than syndicating identical copy.

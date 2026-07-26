@@ -1,7 +1,7 @@
 (function () {
   "use strict";
   var destinations = {"discover": "https://ponys.ai/discover", "create": "https://ponys.ai/create", "character": "https://ponys.ai/ai-character-generator", "image": "https://ponys.ai/ai-image-generator", "video": "https://ponys.ai/ai-video-generator"};
-  var disclosures = {"en": "Disclosure: this link identifies the creator campaign. Commercial compensation, if any, must be disclosed separately.", "ja": "開示：このリンクは制作者キャンペーンを識別します。報酬がある場合は別途明示してください。", "ko": "공개: 이 링크는 크리에이터 캠페인을 식별합니다. 보상이 있는 경우 별도로 공개해야 합니다.", "zh-tw": "揭露：此連結用於識別創作者活動；如有商業報酬，必須另外清楚揭露。", "zh-cn": "披露：此链接用于识别创作者活动；如有商业报酬，必须另行明确披露。", "es": "Divulgación: este enlace identifica la campaña del creador. Toda compensación debe declararse por separado."};
+  var disclosures = {"en": "Disclosure: this link identifies the creator campaign. Commercial compensation, if any, must be disclosed separately.", "ja": "開示：このリンクは制作者キャンペーンを識別します。報酬がある場合は別途明示してください。", "ko": "공개: 이 링크는 크리에이터 캠페인을 식별합니다. 보상이 있는 경우 별도로 공개해야 합니다.", "zh-tw": "揭露：此連結用於識別創作者活動；如有商業報酬，必須另外清楚揭露。", "zh-cn": "披露：此链接用于识别创作者活动；如有商业报酬，必须另行明确披露。", "es": "Divulgación: este enlace identifica la campaña del creador. Toda compensación debe declararse por separado.", "pt-br": "Divulgação: este link identifica a campanha do criador. Qualquer remuneração deve ser informada separadamente."};
   function clean(value, fallback) {
     var text = String(value || "").trim().toLowerCase().replace(/[^a-z0-9_-]+/g, "-").replace(/^-+|-+$/g, "");
     return text || fallback;

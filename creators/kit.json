@@ -15,7 +15,8 @@
     "ko",
     "zh-tw",
     "zh-cn",
-    "es"
+    "es",
+    "pt-br"
   ],
   "disclosures": {
     "en": "Disclosure: this link identifies the creator campaign. Commercial compensation, if any, must be disclosed separately.",
@@ -23,7 +24,8 @@
     "ko": "공개: 이 링크는 크리에이터 캠페인을 식별합니다. 보상이 있는 경우 별도로 공개해야 합니다.",
     "zh-tw": "揭露：此連結用於識別創作者活動；如有商業報酬，必須另外清楚揭露。",
     "zh-cn": "披露：此链接用于识别创作者活动；如有商业报酬，必须另行明确披露。",
-    "es": "Divulgación: este enlace identifica la campaña del creador. Toda compensación debe declararse por separado."
+    "es": "Divulgación: este enlace identifica la campaña del creador. Toda compensación debe declararse por separado.",
+    "pt-br": "Divulgação: este link identifica a campanha do criador. Qualquer remuneração deve ser informada separadamente."
   },
   "assets": {
     "benchmarkWidget": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",

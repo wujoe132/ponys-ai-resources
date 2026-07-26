@@ -1,5 +1,5 @@
 {
-  "name": "Ponys.ai six-language release feeds",
+  "name": "Ponys.ai seven-language release feeds",
   "updated": "2026-07-25",
   "formats": [
     "rss2",
@@ -35,6 +35,11 @@
       "name": "Español",
       "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/es.xml",
       "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/es.json"
+    },
+    "pt-br": {
+      "name": "Português do Brasil",
+      "rss": "https://wujoe132.github.io/ponys-ai-resources/feeds/pt-br.xml",
+      "json": "https://wujoe132.github.io/ponys-ai-resources/feeds/pt-br.json"
     }
   }
 }

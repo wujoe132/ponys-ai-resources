@@ -26,7 +26,7 @@ This public resource page exists as a reference for product directories, reviewe
 
 - Creator and affiliate attribution kit: https://wujoe132.github.io/ponys-ai-resources/creators/
 - Embeddable benchmark widget: https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/
-- Six-language RSS and JSON feeds: https://wujoe132.github.io/ponys-ai-resources/feeds/
+- Seven-language RSS and JSON feeds: https://wujoe132.github.io/ponys-ai-resources/feeds/
 - Machine-readable resource API: https://wujoe132.github.io/ponys-ai-resources/api/resources.json
 - Publisher integration hub: https://wujoe132.github.io/ponys-ai-resources/integrations/
 - OpenAPI specification: https://wujoe132.github.io/ponys-ai-resources/api/openapi.yaml
