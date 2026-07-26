@@ -1,7 +1,7 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Ponys.ai AI Companion Research",
-  "home_page_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/",
+  "home_page_url": "https://ponys.ai/",
   "feed_url": "https://wujoe132.github.io/ponys-ai-resources/feeds/en.json",
   "description": "Open benchmark methods, evidence templates, and creator resources for AI companion coverage.",
   "language": "en-US",
