@@ -1,0 +1,9 @@
+---
+name: AI 陪伴基準評測
+description: 供 AI 陪伴評測使用的五項互動證據評分工具。
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d

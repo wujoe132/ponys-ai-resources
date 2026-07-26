@@ -1,0 +1,9 @@
+---
+name: AIコンパニオン評価
+description: AIコンパニオン記事向けの5項目インタラクティブ評価。
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d

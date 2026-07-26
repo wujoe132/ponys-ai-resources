@@ -1,0 +1,9 @@
+---
+name: AI Companion Benchmark
+description: Interactive five-dimension evidence score for AI companion reviews.
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d

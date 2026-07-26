@@ -1,0 +1,9 @@
+---
+name: AI 컴패니언 벤치마크
+description: AI 컴패니언 리뷰를 위한 5개 항목 대화형 평가.
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d

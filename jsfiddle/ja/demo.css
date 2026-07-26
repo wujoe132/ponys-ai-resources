@@ -1,0 +1,23 @@
+body {
+  color: #17191c;
+  background: #fff;
+  font: 16px/1.55 system-ui, sans-serif;
+}
+main {
+  width: min(720px, 100%);
+  margin: 0 auto;
+}
+h1 {
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+.intro {
+  color: #59636e;
+  max-width: 68ch;
+}
+.product {
+  display: inline-block;
+  margin-top: 16px;
+  color: #075e47;
+  font-weight: 700;
+}

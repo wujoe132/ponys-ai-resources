@@ -1,0 +1,9 @@
+---
+name: Evaluación de acompañantes de IA
+description: Evaluación interactiva de cinco dimensiones para reseñas de acompañantes de IA.
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d

@@ -1,0 +1,9 @@
+---
+name: AI 陪伴基准评测
+description: 面向 AI 陪伴评测的五项互动证据评分工具。
+authors:
+  - Ponys.ai Team
+resources:
+  - https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js
+normalize_css: no
+load_type: d
