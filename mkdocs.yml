@@ -1,0 +1,18 @@
+site_name: Ponys.ai Publisher Resources
+site_description: Open integration, localization, and evaluation resources for AI companion publishers.
+site_url: https://ponys-ai-resources.readthedocs.io/
+repo_url: https://github.com/wujoe132/ponys-ai-resources
+repo_name: wujoe132/ponys-ai-resources
+theme:
+  name: readthedocs
+nav:
+  - Overview: index.md
+  - Publisher integration: integration.md
+  - Evaluation framework: evaluation.md
+  - Multilingual publishing: localization.md
+  - Data and feeds: data-feeds.md
+  - Disclosure and reuse: disclosure.md
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
