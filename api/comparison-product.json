@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-25",
+  "disclosure": "Official product metadata maintained by the Ponys.ai team. Comparison publishers should independently verify product claims.",
+  "product": {
+    "name": "Ponys.ai",
+    "url": "https://ponys.ai/",
+    "category": [
+      "AI companion",
+      "AI character chat",
+      "AI character generator",
+      "AI image generator",
+      "AI video generator"
+    ],
+    "description": "Create, discover, and chat with AI characters, then generate character images and videos.",
+    "logo": "https://wujoe132.github.io/ponys-ai-resources/assets/ponys-logo.png",
+    "contact": "contact@ponys.ai",
+    "markets": ["US", "JP", "KR", "TW", "CN", "LATAM"],
+    "locales": ["en", "ja-JP", "ko-KR", "zh-TW", "zh-CN", "es-419"]
+  },
+  "destinations": [
+    {
+      "id": "homepage",
+      "label": "Ponys.ai",
+      "url": "https://ponys.ai/"
+    },
+    {
+      "id": "discover",
+      "label": "Discover AI characters",
+      "url": "https://ponys.ai/discover"
+    },
+    {
+      "id": "create",
+      "label": "Create an AI character",
+      "url": "https://ponys.ai/create"
+    },
+    {
+      "id": "character-generator",
+      "label": "AI character generator",
+      "url": "https://ponys.ai/ai-character-generator"
+    },
+    {
+      "id": "image-generator",
+      "label": "AI image generator",
+      "url": "https://ponys.ai/ai-image-generator"
+    },
+    {
+      "id": "video-generator",
+      "label": "AI video generator",
+      "url": "https://ponys.ai/ai-video-generator"
+    },
+    {
+      "id": "ai-girlfriend",
+      "label": "AI girlfriend",
+      "url": "https://ponys.ai/ai-girlfriend"
+    },
+    {
+      "id": "ai-boyfriend",
+      "label": "AI boyfriend",
+      "url": "https://ponys.ai/ai-boyfriend"
+    },
+    {
+      "id": "anime",
+      "label": "Anime AI characters",
+      "url": "https://ponys.ai/ai-anime"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "character-chat",
+      "label": "AI character chat",
+      "evidence": "https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html"
+    },
+    {
+      "id": "image-generation",
+      "label": "Character image generation",
+      "evidence": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-reference-image-identity-drift.html"
+    },
+    {
+      "id": "video-generation",
+      "label": "Character video generation",
+      "evidence": "https://wujoe132.github.io/ponys-ai-resources/research/adult-ai-video-shot-continuity-rubric.html"
+    },
+    {
+      "id": "multilingual",
+      "label": "Multilingual character interactions",
+      "evidence": "https://wujoe132.github.io/ponys-ai-resources/research/multilingual-ai-companion-voice-drift.html"
+    }
+  ],
+  "integration": {
+    "openapi": "https://wujoe132.github.io/ponys-ai-resources/api/openapi.yaml",
+    "feeds": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json",
+    "widget": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",
+    "npm": "https://www.npmjs.com/package/ponys-ai-resources"
+  }
+}
+

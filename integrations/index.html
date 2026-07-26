@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ponys.ai Publisher Integrations</title>
+  <meta name="description" content="OpenAPI, WordPress, Web Component, creator marketplace and comparison-tool integration resources for Ponys.ai.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://wujoe132.github.io/ponys-ai-resources/integrations/">
+  <style>
+    *{box-sizing:border-box}body{margin:0;color:#17191c;font:16px/1.55 system-ui,sans-serif}
+    main{width:min(900px,calc(100% - 32px));margin:auto;padding:32px 0 64px}
+    h1{font-size:36px;line-height:1.15;margin:0 0 12px}h2{font-size:22px;margin:30px 0 8px}
+    p,li{max-width:76ch}a{color:#075e47}.note{padding:12px 14px;border-left:4px solid #087f5b;background:#f4f7f6}
+    code{background:#f1f3f5;padding:2px 5px}pre{overflow:auto;padding:14px;background:#17191c;color:#fff}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Ponys.ai Publisher Integrations</h1>
+  <p>Machine-readable and installable resources for publishers, creators, directories, and comparison tools.</p>
+  <p class="note">Maintained by the Ponys.ai team. Publishers retain control of testing, conclusions, placement, and whether to display attribution.</p>
+
+  <h2>API and feeds</h2>
+  <ul>
+    <li><a href="../api/openapi.yaml">OpenAPI 3.1 specification</a></li>
+    <li><a href="../api/resources.json">Public resource catalog</a></li>
+    <li><a href="../feeds/index.json">Six-language feed manifest</a></li>
+  </ul>
+
+  <h2>WordPress plugin</h2>
+  <p><a href="../downloads/ponys-ai-companion-benchmark-1.0.0.zip">Download the installable plugin ZIP</a>. Links are disabled by default and require publisher opt-in.</p>
+  <pre><code>[ponys_ai_benchmark]
+[ponys_ai_benchmark show_links="yes"]</code></pre>
+
+  <h2>Web Component</h2>
+  <pre><code>&lt;script type="module" src="https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js"&gt;&lt;/script&gt;
+&lt;ponys-benchmark-card locale="en" publisher="your-publication"&gt;&lt;/ponys-benchmark-card&gt;</code></pre>
+
+  <h2>Creator marketplace</h2>
+  <p><a href="../api/creator-marketplace.json">Creator brief manifest</a> and <a href="../creators/">localized self-serve kit</a>.</p>
+
+  <h2>Comparison tools</h2>
+  <p><a href="../api/comparison-product.json">Normalized product metadata</a> with deep destinations, capabilities, evidence URLs, locales, and market coverage.</p>
+</main>
+</body>
+</html>

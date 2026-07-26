@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-25",
+  "program": {
+    "name": "Ponys.ai Creator Research Kit",
+    "operator": "Ponys.ai",
+    "contact": "contact@ponys.ai",
+    "application": "https://wujoe132.github.io/ponys-ai-resources/creators/",
+    "status": "self-serve-editorial-kit",
+    "commission": {
+      "active": false,
+      "note": "Campaign attribution does not activate commission or promise payment. Commercial terms require a separate written agreement."
+    }
+  },
+  "supportedLocales": ["en", "ja", "ko", "zh-tw", "zh-cn", "es"],
+  "contentFormats": [
+    "hands-on review",
+    "benchmark walkthrough",
+    "AI character creation tutorial",
+    "image identity test",
+    "video continuity test",
+    "multilingual voice test"
+  ],
+  "requiredDisclosure": {
+    "en": "Ponys.ai provided the official product links and testing resources used in this piece. The publisher controlled the testing and conclusions.",
+    "ja": "本記事ではPonys.ai提供の公式製品リンクとテスト資料を使用しました。テストと結論は発行者が独自に管理しています。",
+    "ko": "이 콘텐츠에는 Ponys.ai가 제공한 공식 제품 링크와 테스트 자료가 사용되었습니다. 테스트와 결론은 게시자가 독립적으로 관리했습니다.",
+    "zh-tw": "本文使用 Ponys.ai 提供的官方產品連結與測試資料；測試過程及結論由發布者獨立決定。",
+    "zh-cn": "本文使用 Ponys.ai 提供的官方产品链接和测试资料；测试过程及结论由发布者独立决定。",
+    "es": "Este contenido usa enlaces oficiales y recursos de prueba proporcionados por Ponys.ai. El medio controló de forma independiente las pruebas y conclusiones."
+  },
+  "assets": {
+    "logo": "https://wujoe132.github.io/ponys-ai-resources/assets/ponys-logo.png",
+    "research": "https://wujoe132.github.io/ponys-ai-resources/api/resources.json",
+    "comparisonMetadata": "https://wujoe132.github.io/ponys-ai-resources/api/comparison-product.json",
+    "feeds": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json",
+    "widgetBuilder": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/"
+  }
+}
+

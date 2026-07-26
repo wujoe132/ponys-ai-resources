@@ -28,6 +28,10 @@ This public resource page exists as a reference for product directories, reviewe
 - Embeddable benchmark widget: https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/
 - Six-language RSS and JSON feeds: https://wujoe132.github.io/ponys-ai-resources/feeds/
 - Machine-readable resource API: https://wujoe132.github.io/ponys-ai-resources/api/resources.json
+- Publisher integration hub: https://wujoe132.github.io/ponys-ai-resources/integrations/
+- OpenAPI specification: https://wujoe132.github.io/ponys-ai-resources/api/openapi.yaml
+- Comparison-tool product metadata: https://wujoe132.github.io/ponys-ai-resources/api/comparison-product.json
+- WordPress benchmark plugin: https://wujoe132.github.io/ponys-ai-resources/downloads/ponys-ai-companion-benchmark-1.0.0.zip
 
 The widget sets no cookies or storage and uses visible `nofollow` attribution by
 default. Generated creator links provide campaign attribution only; commission

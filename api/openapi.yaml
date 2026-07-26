@@ -1,0 +1,140 @@
+openapi: 3.1.0
+info:
+  title: Ponys.ai Public Research Resources API
+  version: 1.0.0
+  description: >-
+    Public, read-only metadata for AI companion evaluation protocols,
+    multilingual research feeds, creator resources, and comparison-tool
+    integrations maintained by the Ponys.ai team.
+  contact:
+    name: Ponys.ai
+    email: contact@ponys.ai
+    url: https://ponys.ai/
+  license:
+    name: MIT
+    identifier: MIT
+servers:
+  - url: https://wujoe132.github.io/ponys-ai-resources
+security: []
+tags:
+  - name: Resources
+    description: Public evaluation protocols, datasets, and official product paths.
+  - name: Feeds
+    description: Localized RSS and JSON Feed discovery metadata.
+  - name: Integrations
+    description: Metadata for creator, widget, directory, and comparison-tool adoption.
+paths:
+  /api/resources.json:
+    get:
+      operationId: listResources
+      summary: List public evaluation resources and official product paths
+      tags: [Resources]
+      responses:
+        "200":
+          description: Resource catalog
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResourceCatalog"
+        "404":
+          description: Resource catalog not found
+  /api/comparison-product.json:
+    get:
+      operationId: getComparisonProduct
+      summary: Get normalized product metadata for comparison tools
+      tags: [Integrations]
+      responses:
+        "200":
+          description: Product metadata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ComparisonProduct"
+        "404":
+          description: Product metadata not found
+  /api/creator-marketplace.json:
+    get:
+      operationId: getCreatorMarketplaceKit
+      summary: Get localized creator brief and disclosure metadata
+      tags: [Integrations]
+      responses:
+        "200":
+          description: Creator integration metadata
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+        "404":
+          description: Creator integration metadata not found
+  /feeds/index.json:
+    get:
+      operationId: listFeeds
+      summary: List RSS and JSON Feed endpoints by locale
+      tags: [Feeds]
+      responses:
+        "200":
+          description: Feed manifest
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+        "404":
+          description: Feed manifest not found
+components:
+  schemas:
+    Resource:
+      type: object
+      required: [id, name, url, data, product]
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        url:
+          type: string
+          format: uri
+        data:
+          type: string
+          format: uri
+        product:
+          type: string
+          format: uri
+    ResourceCatalog:
+      type: object
+      required: [name, updated, product, resources]
+      properties:
+        name:
+          type: string
+        updated:
+          type: string
+          format: date
+        product:
+          type: object
+          additionalProperties:
+            type: string
+            format: uri
+        resources:
+          type: array
+          items:
+            $ref: "#/components/schemas/Resource"
+    ComparisonProduct:
+      type: object
+      required: [schemaVersion, product, destinations, capabilities]
+      properties:
+        schemaVersion:
+          type: string
+        product:
+          type: object
+          additionalProperties: true
+        destinations:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+        capabilities:
+          type: array
+          items:
+            type: object
+            additionalProperties: true

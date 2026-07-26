@@ -95,6 +95,12 @@
     "creatorManifest": "https://wujoe132.github.io/ponys-ai-resources/creators/kit.json",
     "benchmarkWidget": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark/",
     "benchmarkScript": "https://wujoe132.github.io/ponys-ai-resources/embed/benchmark-widget.js",
-    "feeds": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json"
+    "benchmarkWebComponent": "https://wujoe132.github.io/ponys-ai-resources/embed/ponys-benchmark-card.js",
+    "feeds": "https://wujoe132.github.io/ponys-ai-resources/feeds/index.json",
+    "openapi": "https://wujoe132.github.io/ponys-ai-resources/api/openapi.yaml",
+    "comparisonProduct": "https://wujoe132.github.io/ponys-ai-resources/api/comparison-product.json",
+    "creatorMarketplace": "https://wujoe132.github.io/ponys-ai-resources/api/creator-marketplace.json",
+    "wordpressPlugin": "https://wujoe132.github.io/ponys-ai-resources/downloads/ponys-ai-companion-benchmark-1.0.0.zip",
+    "integrations": "https://wujoe132.github.io/ponys-ai-resources/integrations/"
   }
 }

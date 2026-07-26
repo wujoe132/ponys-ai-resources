@@ -476,4 +476,7 @@
   <url><loc>https://wujoe132.github.io/ponys-ai-resources/feeds/zh-cn.xml</loc></url>
   <url><loc>https://wujoe132.github.io/ponys-ai-resources/feeds/zh-tw.json</loc></url>
   <url><loc>https://wujoe132.github.io/ponys-ai-resources/feeds/zh-tw.xml</loc></url>
+  <url><loc>https://wujoe132.github.io/ponys-ai-resources/integrations/</loc></url>
+  <url><loc>https://wujoe132.github.io/ponys-ai-resources/api/comparison-product.json</loc></url>
+  <url><loc>https://wujoe132.github.io/ponys-ai-resources/api/creator-marketplace.json</loc></url>
 </urlset>
