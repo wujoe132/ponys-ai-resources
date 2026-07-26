@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Ponys AI Companion Benchmark
- * Plugin URI: https://wujoe132.github.io/ponys-ai-resources/integrations/
+ * Plugin URI: https://feeds.ponys.ai/integrations/
  * Description: A self-contained AI companion benchmark calculator with an optional, publisher-enabled research attribution.
  * Version: 1.0.0
  * Requires at least: 6.2
@@ -58,7 +58,7 @@ function ponys_ai_benchmark_shortcode( $attributes ) {
 		<p class="ponys-ai-benchmark__score"><?php esc_html_e( 'Benchmark score: 60/100', 'ponys-ai-companion-benchmark' ); ?></p>
 		<?php if ( $show_links ) : ?>
 			<p class="ponys-ai-benchmark__links">
-				<a href="https://wujoe132.github.io/ponys-ai-resources/research/50-turn-nsfw-roleplay-memory-decay.html" rel="nofollow noopener" target="_blank">
+				<a href="https://feeds.ponys.ai/research/50-turn-nsfw-roleplay-memory-decay.html" rel="nofollow noopener" target="_blank">
 					<?php esc_html_e( 'Open evaluation method', 'ponys-ai-companion-benchmark' ); ?>
 				</a>
 				<a href="https://ponys.ai/ai-character-generator?utm_source=wordpress&amp;utm_medium=embed&amp;utm_campaign=benchmark_plugin" rel="nofollow noopener" target="_blank">
@@ -93,4 +93,3 @@ function ponys_ai_benchmark_shortcode( $attributes ) {
 	return ob_get_clean();
 }
 add_shortcode( 'ponys_ai_benchmark', 'ponys_ai_benchmark_shortcode' );
-

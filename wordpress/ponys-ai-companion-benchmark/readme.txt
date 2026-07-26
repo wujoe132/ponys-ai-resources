@@ -2,7 +2,7 @@
 Contributors: ponysai
 Tags: ai, benchmark, companion, research, calculator
 Requires at least: 6.2
-Tested up to: 6.8
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -54,4 +54,3 @@ No.
 = 1.0.0 =
 
 * Initial release.
-
