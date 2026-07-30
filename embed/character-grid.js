@@ -3,6 +3,7 @@
   if (!script) return;
   var locale = script.dataset.locale || "en";
   var limit = Math.max(1, Math.min(20, Number(script.dataset.limit || 6)));
+  var start = Math.max(0, Number(script.dataset.start || 0));
   var publisher = (script.dataset.publisher || location.hostname || "publisher")
     .toLowerCase().replace(/[^a-z0-9.-]+/g, "-");
   var mount = document.createElement("section");
@@ -15,7 +16,9 @@
       return response.json();
     })
     .then(function (feed) {
-      var items = feed.items.slice(0, limit);
+      var offset = feed.items.length ? start % feed.items.length : 0;
+      var ordered = feed.items.slice(offset).concat(feed.items.slice(0, offset));
+      var items = ordered.slice(0, limit);
       var heading = document.createElement("h2");
       heading.textContent = feed.title;
       var grid = document.createElement("div");
