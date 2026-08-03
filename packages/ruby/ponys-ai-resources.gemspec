@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*.rb", "README.md"]
   spec.require_paths = ["lib"]
   spec.metadata = {
-    "source_code_uri" => "https://github.com/wujoe132/ponys-ai-resources",
+    "source_code_uri" => "https://github.com/wujoe132/ponys-ai-resources-ruby",
     "documentation_uri" => "https://feeds.ponys.ai/integrations/"
   }
 end

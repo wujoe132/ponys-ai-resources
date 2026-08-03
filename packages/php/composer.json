@@ -19,7 +19,7 @@
     "php": ">=8.0"
   },
   "support": {
-    "source": "https://github.com/wujoe132/ponys-ai-resources",
+    "source": "https://github.com/wujoe132/ponys-ai-resources-php",
     "docs": "https://feeds.ponys.ai/integrations/"
   },
   "keywords": [

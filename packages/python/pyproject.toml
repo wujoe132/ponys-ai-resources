@@ -17,4 +17,4 @@ classifiers = ["Programming Language :: Python :: 3"]
 [project.urls]
 Homepage = "https://ponys.ai/"
 Documentation = "https://feeds.ponys.ai/integrations/"
-Repository = "https://github.com/wujoe132/ponys-ai-resources"
+Repository = "https://github.com/wujoe132/ponys-ai-resources-python"
