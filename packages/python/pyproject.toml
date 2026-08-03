@@ -9,10 +9,10 @@ version = "0.1.0"
 description = "Official Ponys.ai product-link and multilingual-feed helpers"
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
+license = "MIT"
 authors = [{name = "Ponys.ai", email = "contact@ponys.ai"}]
 keywords = ["ai-companion", "ai-character", "feed", "publisher"]
-classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+classifiers = ["Programming Language :: Python :: 3"]
 
 [project.urls]
 Homepage = "https://ponys.ai/"
