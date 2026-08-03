@@ -1,5 +1,20 @@
 # Ponys.ai Open Data
 
+This collection contains 20 reusable evaluation protocols for multilingual AI
+companion and character experiences. The protocols cover conversation memory,
+persona consistency, consent recovery, visual continuity, code switching, and
+regional language behavior across Japanese, Korean, Latin American Spanish,
+Brazilian Portuguese, Simplified Chinese, Traditional Chinese, and English.
+
+Each dataset directory includes a human-readable protocol, structured metadata,
+and a CSV worksheet. These are blank testing instruments rather than product
+performance claims, and can be adapted for research, reviews, and product QA.
+
+- Official project: [Ponys.ai](https://ponys.ai/)
+- Machine-readable catalog: [Open-data catalog](https://feeds.ponys.ai/open-data/catalog.json)
+- Publisher integration guide: [Feed and Widget integrations](https://feeds.ponys.ai/integrations/)
+- Character feed: [Ponys.ai character feed](https://feeds.ponys.ai/characters.json)
+
 - [敬語会話の境界修復テスト](ja-keigo-boundary-repair/README.md) (ja, JP)
 - [長時間会話の人格ドリフト評価](ja-long-session-persona-drift/README.md) (ja, JP)
 - [アニメキャラクター視覚連続性](ja-anime-character-visual-continuity/README.md) (ja, JP)
@@ -21,4 +36,8 @@
 - [角色对话连贯性评测](zh-cn-character-dialogue-coherence/README.md) (zh-cn, CN)
 - [Multilingual Code-Switch Recovery Protocol](en-multilingual-code-switch-recovery/README.md) (en, Global)
 
+## Citation and license
+
+Please cite the collection as **Ponys.ai Multilingual AI Companion Evaluation
+Protocols, version 1.0.0**. See `CITATION.cff` for structured citation metadata.
 All assets are blank protocols, not performance claims. License: CC BY 4.0.
