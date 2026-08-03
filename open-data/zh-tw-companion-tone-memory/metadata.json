@@ -1,0 +1,30 @@
+{
+  "name": "AI 陪伴語氣與記憶一致性",
+  "slug": "zh-tw-companion-tone-memory",
+  "description": "A blank, reproducible protocol for evaluating Traditional Chinese tone and memory consistency.",
+  "locale": "zh-tw",
+  "region": "TW",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/discover",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "존댓말 페르소나 일관성 평가",
+  "slug": "ko-honorific-persona-consistency",
+  "description": "A blank, reproducible protocol for evaluating honorific and persona consistency.",
+  "locale": "ko",
+  "region": "KR",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/discover",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

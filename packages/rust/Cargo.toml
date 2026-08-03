@@ -1,0 +1,14 @@
+
+[package]
+name = "ponys-ai-resources"
+version = "0.1.0"
+edition = "2021"
+description = "Official Ponys.ai product-link and multilingual-feed helpers"
+license = "MIT"
+homepage = "https://ponys.ai/"
+repository = "https://github.com/wujoe132/ponys-ai-resources"
+documentation = "https://feeds.ponys.ai/integrations/"
+keywords = ["ai", "companion", "publisher", "feed"]
+categories = ["web-programming"]
+
+[dependencies]

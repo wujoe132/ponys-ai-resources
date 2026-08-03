@@ -1,0 +1,27 @@
+{
+  "name": "Ponys.ai five-ecosystem resource SDK",
+  "version": "0.1.0",
+  "ecosystems": {
+    "npm": {
+      "path": "../npm-ponys-ai-resources",
+      "package": "ponys-ai-resources"
+    },
+    "pypi": {
+      "path": "python",
+      "package": "ponys-ai-resources"
+    },
+    "rubygems": {
+      "path": "ruby",
+      "package": "ponys-ai-resources"
+    },
+    "packagist": {
+      "path": "php",
+      "package": "ponys-ai/resources"
+    },
+    "crates.io": {
+      "path": "rust",
+      "package": "ponys-ai-resources"
+    }
+  },
+  "policy": "Useful official SDKs only; no hidden links or automatic injection."
+}

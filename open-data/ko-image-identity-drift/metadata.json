@@ -1,0 +1,30 @@
+{
+  "name": "캐릭터 이미지 정체성 변화 평가",
+  "slug": "ko-image-identity-drift",
+  "description": "A blank, reproducible protocol for evaluating character identity drift in generated images.",
+  "locale": "ko",
+  "region": "KR",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/ai-image-generator",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

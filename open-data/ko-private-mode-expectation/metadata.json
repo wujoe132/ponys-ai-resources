@@ -1,0 +1,30 @@
+{
+  "name": "비공개 모드 기대치 점검",
+  "slug": "ko-private-mode-expectation",
+  "description": "A blank, reproducible protocol for evaluating privacy expectation communication.",
+  "locale": "ko",
+  "region": "KR",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/ai-boyfriend",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

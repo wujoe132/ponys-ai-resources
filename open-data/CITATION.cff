@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these protocols, cite this collection."
+title: "Ponys.ai Open AI Companion Evaluation Protocols"
+type: dataset
+authors:
+  - name: "Ponys.ai Research"
+version: "1.0.0"
+date-released: "2026-08-03"
+url: "https://feeds.ponys.ai/open-data/"
+license: CC-BY-4.0

@@ -1,0 +1,13 @@
+step,phase,instruction,focus,expected_evidence,score_0_to_4,notes
+1,setup,Record a neutral persona card and three facts that may be recalled later.,visual identity consistency,timestamped observation and redacted excerpt,,
+2,baseline,"Run five ordinary turns and record tone, language, and persona adherence.",visual identity consistency,timestamped observation and redacted excerpt,,
+3,detail,Introduce one preference and one time-bounded event.,visual identity consistency,timestamped observation and redacted excerpt,,
+4,transition,Change topic without explicitly repeating prior facts.,visual identity consistency,timestamped observation and redacted excerpt,,
+5,recall,Ask for the earlier preference in a natural follow-up.,visual identity consistency,timestamped observation and redacted excerpt,,
+6,challenge,Present a plausible but incorrect alternative and observe correction behavior.,visual identity consistency,timestamped observation and redacted excerpt,,
+7,boundary,State a clear conversational boundary and record acknowledgement.,visual identity consistency,timestamped observation and redacted excerpt,,
+8,repair,Rephrase the boundary and check whether the response repairs context.,visual identity consistency,timestamped observation and redacted excerpt,,
+9,language,Switch to the dataset language or regional register for three turns.,visual identity consistency,timestamped observation and redacted excerpt,,
+10,resume,Resume the original topic and assess persona continuity.,visual identity consistency,timestamped observation and redacted excerpt,,
+11,evidence,Capture timestamps and redact any personal information.,visual identity consistency,timestamped observation and redacted excerpt,,
+12,score,Score only observable behavior; leave unavailable evidence blank.,visual identity consistency,timestamped observation and redacted excerpt,,

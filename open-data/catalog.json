@@ -1,0 +1,608 @@
+{
+  "name": "Ponys.ai Open AI Companion Evaluation Protocols",
+  "description": "Twenty multilingual, blank evaluation protocols for reproducible publisher testing.",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datasets": [
+    {
+      "name": "敬語会話の境界修復テスト",
+      "slug": "ja-keigo-boundary-repair",
+      "description": "A blank, reproducible protocol for evaluating politeness repair after a boundary correction.",
+      "locale": "ja",
+      "region": "JP",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ja-keigo-boundary-repair/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ja-keigo-boundary-repair/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ja-keigo-boundary-repair/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "長時間会話の人格ドリフト評価",
+      "slug": "ja-long-session-persona-drift",
+      "description": "A blank, reproducible protocol for evaluating persona consistency across a long session.",
+      "locale": "ja",
+      "region": "JP",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ja-long-session-persona-drift/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ja-long-session-persona-drift/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ja-long-session-persona-drift/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "アニメキャラクター視覚連続性",
+      "slug": "ja-anime-character-visual-continuity",
+      "description": "A blank, reproducible protocol for evaluating visual identity continuity across prompts.",
+      "locale": "ja",
+      "region": "JP",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ja-anime-character-visual-continuity/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ja-anime-character-visual-continuity/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ja-anime-character-visual-continuity/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-anime",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "同意コンテキストのリセット評価",
+      "slug": "ja-consent-context-reset",
+      "description": "A blank, reproducible protocol for evaluating consent-state reset and recovery.",
+      "locale": "ja",
+      "region": "JP",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-girlfriend",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "존댓말 페르소나 일관성 평가",
+      "slug": "ko-honorific-persona-consistency",
+      "description": "A blank, reproducible protocol for evaluating honorific and persona consistency.",
+      "locale": "ko",
+      "region": "KR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ko-honorific-persona-consistency/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "롤플레이 기억 회상 프로토콜",
+      "slug": "ko-roleplay-memory-recall",
+      "description": "A blank, reproducible protocol for evaluating fact recall under roleplay transitions.",
+      "locale": "ko",
+      "region": "KR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ko-roleplay-memory-recall/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ko-roleplay-memory-recall/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ko-roleplay-memory-recall/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "캐릭터 이미지 정체성 변화 평가",
+      "slug": "ko-image-identity-drift",
+      "description": "A blank, reproducible protocol for evaluating character identity drift in generated images.",
+      "locale": "ko",
+      "region": "KR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ko-image-identity-drift/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-image-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "비공개 모드 기대치 점검",
+      "slug": "ko-private-mode-expectation",
+      "description": "A blank, reproducible protocol for evaluating privacy expectation communication.",
+      "locale": "ko",
+      "region": "KR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/ko-private-mode-expectation/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-boyfriend",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Retención de jerga en compañeros de IA",
+      "slug": "es-latam-companion-slang-retention",
+      "description": "A blank, reproducible protocol for evaluating regional slang retention across turns.",
+      "locale": "es",
+      "region": "LATAM",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/es-latam-companion-slang-retention/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-companion-slang-retention/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-companion-slang-retention/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Reparación de consentimiento conversacional",
+      "slug": "es-latam-consent-repair",
+      "description": "A blank, reproducible protocol for evaluating boundary acknowledgement and repair.",
+      "locale": "es",
+      "region": "LATAM",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/es-latam-consent-repair/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-consent-repair/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-consent-repair/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-girlfriend",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Memoria de personajes en sesiones largas",
+      "slug": "es-latam-character-memory",
+      "description": "A blank, reproducible protocol for evaluating character memory across long sessions.",
+      "locale": "es",
+      "region": "LATAM",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/es-latam-character-memory/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-character-memory/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-character-memory/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Fidelidad de prompts para personajes",
+      "slug": "es-latam-image-prompt-fidelity",
+      "description": "A blank, reproducible protocol for evaluating prompt fidelity for character images.",
+      "locale": "es",
+      "region": "LATAM",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/es-latam-image-prompt-fidelity/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-image-prompt-fidelity/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/es-latam-image-prompt-fidelity/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-image-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Mudança de registro em companheiros de IA",
+      "slug": "pt-br-companion-register-shift",
+      "description": "A blank, reproducible protocol for evaluating formal and informal register switching.",
+      "locale": "pt-br",
+      "region": "BR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/pt-br-companion-register-shift/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-companion-register-shift/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-companion-register-shift/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Memória de roleplay em português brasileiro",
+      "slug": "pt-br-roleplay-memory",
+      "description": "A blank, reproducible protocol for evaluating roleplay memory in Brazilian Portuguese.",
+      "locale": "pt-br",
+      "region": "BR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/pt-br-roleplay-memory/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-roleplay-memory/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-roleplay-memory/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Recuperação após limite conversacional",
+      "slug": "pt-br-boundary-recovery",
+      "description": "A blank, reproducible protocol for evaluating safe recovery after a user boundary.",
+      "locale": "pt-br",
+      "region": "BR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/pt-br-boundary-recovery/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-boundary-recovery/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-boundary-recovery/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-girlfriend",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Consistência visual de personagens",
+      "slug": "pt-br-character-image-consistency",
+      "description": "A blank, reproducible protocol for evaluating visual identity consistency.",
+      "locale": "pt-br",
+      "region": "BR",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/pt-br-character-image-consistency/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-character-image-consistency/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/pt-br-character-image-consistency/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-image-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "AI 陪伴語氣與記憶一致性",
+      "slug": "zh-tw-companion-tone-memory",
+      "description": "A blank, reproducible protocol for evaluating Traditional Chinese tone and memory consistency.",
+      "locale": "zh-tw",
+      "region": "TW",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/zh-tw-companion-tone-memory/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "角色關係狀態延續測試",
+      "slug": "zh-tw-character-relationship-state",
+      "description": "A blank, reproducible protocol for evaluating relationship-state continuity.",
+      "locale": "zh-tw",
+      "region": "TW",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/zh-tw-character-relationship-state/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/zh-tw-character-relationship-state/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/zh-tw-character-relationship-state/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "角色对话连贯性评测",
+      "slug": "zh-cn-character-dialogue-coherence",
+      "description": "A blank, reproducible protocol for evaluating Simplified Chinese dialogue coherence.",
+      "locale": "zh-cn",
+      "region": "CN",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/discover",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    },
+    {
+      "name": "Multilingual Code-Switch Recovery Protocol",
+      "slug": "en-multilingual-code-switch-recovery",
+      "description": "A blank, reproducible protocol for evaluating persona recovery after language switching.",
+      "locale": "en",
+      "region": "Global",
+      "datePublished": "2026-08-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "name": "Ponys.ai Research",
+        "url": "https://ponys.ai/"
+      },
+      "methodology": "https://feeds.ponys.ai/open-data/en-multilingual-code-switch-recovery/README.md",
+      "distribution": [
+        {
+          "format": "text/csv",
+          "url": "https://feeds.ponys.ai/open-data/en-multilingual-code-switch-recovery/protocol.csv"
+        },
+        {
+          "format": "application/json",
+          "url": "https://feeds.ponys.ai/open-data/en-multilingual-code-switch-recovery/metadata.json"
+        }
+      ],
+      "targetProductPath": "https://ponys.ai/ai-character-generator",
+      "limitations": [
+        "This release contains a blank evaluation protocol, not product-performance claims.",
+        "Evaluators should publish model/version, date, settings, and redaction policy.",
+        "Scores from different evaluators are not directly comparable without calibration."
+      ]
+    }
+  ]
+}

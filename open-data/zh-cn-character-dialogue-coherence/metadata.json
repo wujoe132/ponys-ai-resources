@@ -1,0 +1,30 @@
+{
+  "name": "角色对话连贯性评测",
+  "slug": "zh-cn-character-dialogue-coherence",
+  "description": "A blank, reproducible protocol for evaluating Simplified Chinese dialogue coherence.",
+  "locale": "zh-cn",
+  "region": "CN",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/zh-cn-character-dialogue-coherence/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/discover",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

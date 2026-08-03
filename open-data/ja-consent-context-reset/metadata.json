@@ -1,0 +1,30 @@
+{
+  "name": "同意コンテキストのリセット評価",
+  "slug": "ja-consent-context-reset",
+  "description": "A blank, reproducible protocol for evaluating consent-state reset and recovery.",
+  "locale": "ja",
+  "region": "JP",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/ja-consent-context-reset/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/ai-girlfriend",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

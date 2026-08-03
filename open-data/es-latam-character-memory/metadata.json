@@ -1,0 +1,30 @@
+{
+  "name": "Memoria de personajes en sesiones largas",
+  "slug": "es-latam-character-memory",
+  "description": "A blank, reproducible protocol for evaluating character memory across long sessions.",
+  "locale": "es",
+  "region": "LATAM",
+  "datePublished": "2026-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "name": "Ponys.ai Research",
+    "url": "https://ponys.ai/"
+  },
+  "methodology": "https://feeds.ponys.ai/open-data/es-latam-character-memory/README.md",
+  "distribution": [
+    {
+      "format": "text/csv",
+      "url": "https://feeds.ponys.ai/open-data/es-latam-character-memory/protocol.csv"
+    },
+    {
+      "format": "application/json",
+      "url": "https://feeds.ponys.ai/open-data/es-latam-character-memory/metadata.json"
+    }
+  ],
+  "targetProductPath": "https://ponys.ai/ai-character-generator",
+  "limitations": [
+    "This release contains a blank evaluation protocol, not product-performance claims.",
+    "Evaluators should publish model/version, date, settings, and redaction policy.",
+    "Scores from different evaluators are not directly comparable without calibration."
+  ]
+}

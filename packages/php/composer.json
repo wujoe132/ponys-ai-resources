@@ -1,0 +1,31 @@
+{
+  "name": "ponys-ai/resources",
+  "description": "Official Ponys.ai product-link and multilingual-feed helpers",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://ponys.ai/",
+  "authors": [
+    {
+      "name": "Ponys.ai",
+      "email": "contact@ponys.ai"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PonysAI\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "support": {
+    "source": "https://github.com/wujoe132/ponys-ai-resources",
+    "docs": "https://feeds.ponys.ai/integrations/"
+  },
+  "keywords": [
+    "ai-companion",
+    "ai-character",
+    "publisher",
+    "feed"
+  ]
+}
