@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-src/ponys_ai_resources/__init__.py
-src/ponys_ai_resources.egg-info/PKG-INFO
-src/ponys_ai_resources.egg-info/SOURCES.txt
-src/ponys_ai_resources.egg-info/dependency_links.txt
-src/ponys_ai_resources.egg-info/top_level.txt
