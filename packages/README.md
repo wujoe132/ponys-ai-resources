@@ -10,3 +10,4 @@ hidden links or calls a private API.
 - RubyGems: `packages/ruby`
 - Packagist: `packages/php`
 - crates.io: `packages/rust`
+- Go modules: `packages/go`

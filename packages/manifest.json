@@ -1,5 +1,5 @@
 {
-  "name": "Ponys.ai five-ecosystem resource SDK",
+  "name": "Ponys.ai multi-ecosystem resource SDK",
   "version": "0.3.0",
   "ecosystems": {
     "npm": {
@@ -21,6 +21,10 @@
     "crates.io": {
       "path": "rust",
       "package": "ponys-ai-resources"
+    },
+    "go": {
+      "path": "go",
+      "package": "github.com/wujoe132/ponys-ai-resources/packages/go"
     }
   },
   "policy": "Useful official SDKs only; no hidden links or automatic injection."
