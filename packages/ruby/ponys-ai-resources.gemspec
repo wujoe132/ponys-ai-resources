@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "ponys-ai-resources"
-  spec.version = "0.1.0"
+  spec.version = "0.3.0"
   spec.summary = "Official Ponys.ai public resource helpers"
   spec.description = "Resolve product URLs and multilingual public feeds for publisher integrations."
   spec.authors = ["Ponys.ai"]
@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://ponys.ai/"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6"
-  spec.files = Dir["lib/**/*.rb", "README.md"]
+  spec.files = Dir["lib/**/*", "README.md"]
   spec.require_paths = ["lib"]
   spec.metadata = {
     "source_code_uri" => "https://github.com/wujoe132/ponys-ai-resources-ruby",
