@@ -1,0 +1,16 @@
+version: 0.1.0
+name: ponys-ai-character-resources
+displayName: Ponys.ai Multilingual Character Resources
+createdAt: 2026-08-13T00:00:00Z
+description: Kubernetes ConfigMap with Japanese, Korean, Latin American, Brazilian and Chinese AI character integration endpoints.
+logoURL: https://feeds.ponys.ai/assets/ponys-logo.png
+license: MIT
+homeURL: https://ponys.ai/ai-character-generator
+containersImages: []
+links:
+  - name: Korean character example
+    url: https://ponys.ai/characters/sera-park
+  - name: Latin American character example
+    url: https://ponys.ai/characters/camila-duarte
+  - name: Brazilian character example
+    url: https://ponys.ai/characters/marisol-vega

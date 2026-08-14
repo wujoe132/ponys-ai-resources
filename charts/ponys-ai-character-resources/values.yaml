@@ -1,0 +1,18 @@
+configMapName: ponys-ai-character-resources
+
+feeds:
+  japanese: https://feeds.ponys.ai/feeds/ja.json
+  korean: https://feeds.ponys.ai/feeds/ko.json
+  spanishLatam: https://feeds.ponys.ai/feeds/es.json
+  portugueseBrazil: https://feeds.ponys.ai/feeds/pt-br.json
+  simplifiedChinese: https://feeds.ponys.ai/feeds/zh-cn.json
+  traditionalChinese: https://feeds.ponys.ai/feeds/zh-tw.json
+
+widgetManifest: https://feeds.ponys.ai/widgets/manifest.json
+characterCatalog: https://feeds.ponys.ai/feeds/index.json
+
+characterExamples:
+  japan: https://ponys.ai/characters/akari
+  korea: https://ponys.ai/characters/sera-park
+  latinAmerica: https://ponys.ai/characters/camila-duarte
+  brazil: https://ponys.ai/characters/marisol-vega

@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.configMapName | quote }}
+  labels:
+    app.kubernetes.io/name: ponys-ai-character-resources
+    app.kubernetes.io/managed-by: {{ .Release.Service | quote }}
+data:
+  feed-ja: {{ .Values.feeds.japanese | quote }}
+  feed-ko: {{ .Values.feeds.korean | quote }}
+  feed-es-latam: {{ .Values.feeds.spanishLatam | quote }}
+  feed-pt-br: {{ .Values.feeds.portugueseBrazil | quote }}
+  feed-zh-cn: {{ .Values.feeds.simplifiedChinese | quote }}
+  feed-zh-tw: {{ .Values.feeds.traditionalChinese | quote }}
+  widget-manifest: {{ .Values.widgetManifest | quote }}
+  character-catalog: {{ .Values.characterCatalog | quote }}
+  character-japan: {{ .Values.characterExamples.japan | quote }}
+  character-korea: {{ .Values.characterExamples.korea | quote }}
+  character-latam: {{ .Values.characterExamples.latinAmerica | quote }}
+  character-brazil: {{ .Values.characterExamples.brazil | quote }}
