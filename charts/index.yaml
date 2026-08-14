@@ -3,14 +3,14 @@ entries:
   ponys-ai-character-resources:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: "2026-08-14T01:49:34Z"
+      created: "2026-08-14T04:47:21Z"
       description: Multilingual Ponys.ai character feed and widget configuration for Kubernetes publishers
-      digest: 9535db16a1088f07e79ec63b529d81a36e9d4069a6867d526ed97cb53e5e8ece
+      digest: 829fd8f21026d5e06e65ce25881123180b7254bd543ecf3909ad2b001a7774af
       home: https://ponys.ai/ai-character-generator
       name: ponys-ai-character-resources
       sources:
         - https://feeds.ponys.ai/feeds/index.json
       urls:
-        - https://wujoe132.github.io/ponys-ai-resources/charts/ponys-ai-character-resources-0.1.0.tgz
-      version: 0.1.0
-generated: "2026-08-14T01:49:34Z"
+        - https://wujoe132.github.io/ponys-ai-resources/charts/ponys-ai-character-resources-0.1.1.tgz
+      version: 0.1.1
+generated: "2026-08-14T04:47:21Z"
