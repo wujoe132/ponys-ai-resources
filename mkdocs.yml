@@ -11,6 +11,7 @@ nav:
   - Evaluation framework: evaluation.md
   - Multilingual publishing: localization.md
   - Data and feeds: data-feeds.md
+  - Character SDK records: characters/index.md
   - Disclosure and reuse: disclosure.md
 markdown_extensions:
   - tables

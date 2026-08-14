@@ -1,0 +1,20 @@
+# Aaliyah Banks character SDK record
+
+[Aaliyah Banks on Ponys.ai](https://ponys.ai/characters/aaliyah-banks) is the canonical public page
+for the `aaliyah-banks` record in the publisher resource SDK.
+
+## Record fields
+
+| Field | Value |
+|---|---|
+| Slug | `aaliyah-banks` |
+| Locale | `en` |
+| Market | `GLOBAL` |
+| Canonical URL | [https://ponys.ai/characters/aaliyah-banks](https://ponys.ai/characters/aaliyah-banks) |
+
+## Integration use
+
+Use this stable record in feed readers, publisher widgets, API examples, and
+link-health checks. Fetch changing descriptions and media from the public feed
+rather than caching them in the identity record. This official data card does
+not contain private conversations or user-created content.

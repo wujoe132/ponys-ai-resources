@@ -1,0 +1,20 @@
+# Camila Reyes character SDK record
+
+[Camila Reyes on Ponys.ai](https://ponys.ai/characters/camila-reyes) is the canonical public page
+for the `camila-reyes` record in the publisher resource SDK.
+
+## Record fields
+
+| Field | Value |
+|---|---|
+| Slug | `camila-reyes` |
+| Locale | `en` |
+| Market | `GLOBAL` |
+| Canonical URL | [https://ponys.ai/characters/camila-reyes](https://ponys.ai/characters/camila-reyes) |
+
+## Integration use
+
+Use this stable record in feed readers, publisher widgets, API examples, and
+link-health checks. Fetch changing descriptions and media from the public feed
+rather than caching them in the identity record. This official data card does
+not contain private conversations or user-created content.
