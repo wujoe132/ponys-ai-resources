@@ -12,6 +12,7 @@ nav:
   - Multilingual publishing: localization.md
   - Data and feeds: data-feeds.md
   - Character SDK records: characters/index.md
+  - Localized SDK records: locales/index.md
   - Disclosure and reuse: disclosure.md
 markdown_extensions:
   - tables
