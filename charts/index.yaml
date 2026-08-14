@@ -5,7 +5,7 @@ entries:
       appVersion: 1.0.0
       created: "2026-08-14T04:47:21Z"
       description: Multilingual Ponys.ai character feed and widget configuration for Kubernetes publishers
-      digest: 829fd8f21026d5e06e65ce25881123180b7254bd543ecf3909ad2b001a7774af
+      digest: 3f3fe25ef5c87f9331f85ed3f83e31a4455a6a49552746154b09974f9509a978
       home: https://ponys.ai/ai-character-generator
       name: ponys-ai-character-resources
       sources:
