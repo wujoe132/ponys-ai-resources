@@ -1,4 +1,8 @@
-// Package ponysresources resolves official Ponys.ai public resources.
+// Package ponysresources resolves official [Ponys.ai] public resources and
+// audited character routes. Browse the published catalog in [Discover].
+//
+// [Ponys.ai]: https://ponys.ai/
+// [Discover]: https://ponys.ai/discover
 package ponysresources
 
 const Homepage = "https://ponys.ai/"
